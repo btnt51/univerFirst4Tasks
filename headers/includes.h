@@ -8,7 +8,5 @@
 #include <cmath>
 #include <numeric>
 #include <fstream>
-#include "../Task1/Cpoint.h"
-#include "../Task1/Cfrac.h"
 #include "prototypes.h"
 #endif //UNIVERFIRST4TASKS_INCLUDES_H

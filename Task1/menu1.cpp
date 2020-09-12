@@ -1,7 +1,8 @@
 //
 // Created by btnt51 on 10.09.2020.
 //
-#include "../headers/includes.h"
+#include "Cpoint.h"
+#include "Cfrac.h"
 
 void menu1()
 {
