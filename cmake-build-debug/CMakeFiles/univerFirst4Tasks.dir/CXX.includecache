@@ -6,9 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.cpp
-Cfrac.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+../headers/includes.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
 
+/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h
+../headers/includes.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+iostream
+-
+cmath
+-
+numeric
+-
+fstream
+-
+../firstTask/Cpoint.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h
+../firstTask/Cfrac.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+prototypes.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/source/menu.cpp
+../headers/includes.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
 

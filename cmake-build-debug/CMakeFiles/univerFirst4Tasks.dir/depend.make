@@ -3,10 +3,37 @@
 
 CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o: ../firstTask/Cfrac.cpp
 CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o: ../firstTask/Cfrac.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o: ../firstTask/Cpoint.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o: ../headers/prototypes.h
 
+CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o: ../firstTask/Cfrac.h
 CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o: ../firstTask/Cpoint.cpp
 CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o: ../firstTask/Cpoint.h
-CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o: ../includes.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o: ../headers/prototypes.h
 
-CMakeFiles/univerFirst4Tasks.dir/main.cpp.o: ../main.cpp
+CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o: ../firstTask/Cfrac.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o: ../firstTask/Cpoint.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o: ../firstTask/menu1.cpp
+CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o: ../headers/prototypes.h
+
+CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../firstTask/Cfrac.h
+CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../firstTask/Cpoint.h
+CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../headers/prototypes.h
+CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../source/input_data.cpp
+
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o: ../firstTask/Cfrac.h
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o: ../firstTask/Cpoint.h
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o: ../headers/prototypes.h
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o: ../source/main.cpp
+
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o: ../firstTask/Cfrac.h
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o: ../firstTask/Cpoint.h
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o: ../headers/prototypes.h
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o: ../source/menu.cpp
 

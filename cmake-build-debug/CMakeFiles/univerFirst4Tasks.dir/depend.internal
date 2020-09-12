@@ -4,9 +4,36 @@
 CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o
  /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.cpp
  /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
 CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
  /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.cpp
  /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h
- /home/btnt51/CLionProjects/univerFirst4Tasks/includes.h
-CMakeFiles/univerFirst4Tasks.dir/main.cpp.o
- /home/btnt51/CLionProjects/univerFirst4Tasks/main.cpp
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
+CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/menu1.cpp
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
+CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/source/input_data.cpp
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/source/main.cpp
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
+ /home/btnt51/CLionProjects/univerFirst4Tasks/source/menu.cpp

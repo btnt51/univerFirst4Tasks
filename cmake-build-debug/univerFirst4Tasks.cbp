@@ -103,6 +103,9 @@
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/source/input_data.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/source/main.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>

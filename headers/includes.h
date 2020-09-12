@@ -7,6 +7,7 @@
 #include <iostream>
 #include <cmath>
 #include <numeric>
+#include <fstream>
 #include "../firstTask/Cpoint.h"
 #include "../firstTask/Cfrac.h"
 #include "prototypes.h"

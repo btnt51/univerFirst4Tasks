@@ -13,10 +13,10 @@ private:
 public:
 	Cpoint(double x, double y);
 	~Cpoint();
-    double lengthRadVector();
+    double lengthRadVector() const;
     double getX() {return m_x;}
 	double getY() {return m_y;}
-    Cpoint turnRadVectorOnH(double radian);
+    Cpoint turnRadVectorOnH(double radian) const;
 	void inputXY();
 };
 

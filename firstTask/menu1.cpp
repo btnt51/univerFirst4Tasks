@@ -7,7 +7,7 @@ void menu1()
 {
 	const double pi = 3.14;
 	double i = 15;
-	Cpoint point(0,0);
+	Cpoint point(0.0,0.0);
 	point.inputXY();
 	std::cout << "\nx=" << point.getX()<< std::endl;
 	std::cout << "\ny=" << point.getY() << std::endl;

@@ -23,12 +23,12 @@ void Cpoint::inputXY()
 	std::cin >> m_y;
 }
 
-double Cpoint::lengthRadVector()
+double Cpoint::lengthRadVector() const
 {
     return sqrt((m_x*m_x) + (m_y*m_y));
 }
 
-Cpoint Cpoint::turnRadVectorOnH(double radian)
+Cpoint Cpoint::turnRadVectorOnH(double radian) const
 {
 	return Cpoint(m_x * cos(radian) + m_y * sin(radian), -m_x * sin(radian) + m_y * cos(radian));
 }

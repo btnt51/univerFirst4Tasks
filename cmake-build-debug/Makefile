@@ -204,6 +204,33 @@ firstTask/menu1.cpp.s:
 	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.s
 .PHONY : firstTask/menu1.cpp.s
 
+source/input_data.o: source/input_data.cpp.o
+
+.PHONY : source/input_data.o
+
+# target to build an object file
+source/input_data.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o
+.PHONY : source/input_data.cpp.o
+
+source/input_data.i: source/input_data.cpp.i
+
+.PHONY : source/input_data.i
+
+# target to preprocess a source file
+source/input_data.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.i
+.PHONY : source/input_data.cpp.i
+
+source/input_data.s: source/input_data.cpp.s
+
+.PHONY : source/input_data.s
+
+# target to generate assembly for a file
+source/input_data.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.s
+.PHONY : source/input_data.cpp.s
+
 source/main.o: source/main.cpp.o
 
 .PHONY : source/main.o
@@ -276,6 +303,9 @@ help:
 	@echo "... firstTask/menu1.o"
 	@echo "... firstTask/menu1.i"
 	@echo "... firstTask/menu1.s"
+	@echo "... source/input_data.o"
+	@echo "... source/input_data.i"
+	@echo "... source/input_data.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
