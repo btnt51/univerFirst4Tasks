@@ -6,7 +6,7 @@
 #define UNIVERFIRST4TASKS_CSTUDENT_H
 #include "Cperson.h"
 
-class Cstudent : public Cperson
+class Cstudent : protected Cperson
 {
 private:
 	std::string m_Faculty = "";
@@ -17,6 +17,7 @@ public:
 	~Cstudent();
 	void input_stud();
 	void printInfo();
+	void changeName();
 
 };
 

@@ -55,3 +55,7 @@ void Cstudent::printInfo()
 		 << "\nStudent GroupNumber->"<< this->m_GroupNumber;
 }
 
+void Cstudent::changeName() {
+	std::cout << "Enter a new name for student ";
+	std::cin >> this->m_Name;
+}
