@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o"
-  "CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o"
-  "CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o"
+  "CMakeFiles/univerFirst4Tasks.dir/Task1/Cfrac.cpp.o"
+  "CMakeFiles/univerFirst4Tasks.dir/Task1/Cpoint.cpp.o"
+  "CMakeFiles/univerFirst4Tasks.dir/Task1/menu1.cpp.o"
+  "CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.o"
+  "CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o"
+  "CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o"
   "CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o"
   "CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o"
   "CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o"

@@ -82,19 +82,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.cpp">
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h">
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.cpp">
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cpoint.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.h">
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cpoint.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/menu1.cpp">
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/menu1.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.h">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.h">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/menu2.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h">

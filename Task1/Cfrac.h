@@ -15,8 +15,8 @@ public:
 	~Cfrac();
 	int getP(){return m_p;}
 	int getQ(){return m_q;}
-	double toNumber();
-	Cfrac toSimple();
+	double toNumber() const;
+	Cfrac toSimple() const;
 	void inputPQ();
 };
 

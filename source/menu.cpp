@@ -26,7 +26,7 @@ void menu()
 				menu1();
 				break;
 			case 2:
-				//menu2();
+				menu2();
 				break;
 			case 3:
 				//menu3();

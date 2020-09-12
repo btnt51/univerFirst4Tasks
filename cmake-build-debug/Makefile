@@ -123,86 +123,167 @@ univerFirst4Tasks/fast:
 	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/build
 .PHONY : univerFirst4Tasks/fast
 
-firstTask/Cfrac.o: firstTask/Cfrac.cpp.o
+Task1/Cfrac.o: Task1/Cfrac.cpp.o
 
-.PHONY : firstTask/Cfrac.o
-
-# target to build an object file
-firstTask/Cfrac.cpp.o:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o
-.PHONY : firstTask/Cfrac.cpp.o
-
-firstTask/Cfrac.i: firstTask/Cfrac.cpp.i
-
-.PHONY : firstTask/Cfrac.i
-
-# target to preprocess a source file
-firstTask/Cfrac.cpp.i:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.i
-.PHONY : firstTask/Cfrac.cpp.i
-
-firstTask/Cfrac.s: firstTask/Cfrac.cpp.s
-
-.PHONY : firstTask/Cfrac.s
-
-# target to generate assembly for a file
-firstTask/Cfrac.cpp.s:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.s
-.PHONY : firstTask/Cfrac.cpp.s
-
-firstTask/Cpoint.o: firstTask/Cpoint.cpp.o
-
-.PHONY : firstTask/Cpoint.o
+.PHONY : Task1/Cfrac.o
 
 # target to build an object file
-firstTask/Cpoint.cpp.o:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o
-.PHONY : firstTask/Cpoint.cpp.o
+Task1/Cfrac.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/Cfrac.cpp.o
+.PHONY : Task1/Cfrac.cpp.o
 
-firstTask/Cpoint.i: firstTask/Cpoint.cpp.i
+Task1/Cfrac.i: Task1/Cfrac.cpp.i
 
-.PHONY : firstTask/Cpoint.i
+.PHONY : Task1/Cfrac.i
 
 # target to preprocess a source file
-firstTask/Cpoint.cpp.i:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.i
-.PHONY : firstTask/Cpoint.cpp.i
+Task1/Cfrac.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/Cfrac.cpp.i
+.PHONY : Task1/Cfrac.cpp.i
 
-firstTask/Cpoint.s: firstTask/Cpoint.cpp.s
+Task1/Cfrac.s: Task1/Cfrac.cpp.s
 
-.PHONY : firstTask/Cpoint.s
+.PHONY : Task1/Cfrac.s
 
 # target to generate assembly for a file
-firstTask/Cpoint.cpp.s:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.s
-.PHONY : firstTask/Cpoint.cpp.s
+Task1/Cfrac.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/Cfrac.cpp.s
+.PHONY : Task1/Cfrac.cpp.s
 
-firstTask/menu1.o: firstTask/menu1.cpp.o
+Task1/Cpoint.o: Task1/Cpoint.cpp.o
 
-.PHONY : firstTask/menu1.o
+.PHONY : Task1/Cpoint.o
 
 # target to build an object file
-firstTask/menu1.cpp.o:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o
-.PHONY : firstTask/menu1.cpp.o
+Task1/Cpoint.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/Cpoint.cpp.o
+.PHONY : Task1/Cpoint.cpp.o
 
-firstTask/menu1.i: firstTask/menu1.cpp.i
+Task1/Cpoint.i: Task1/Cpoint.cpp.i
 
-.PHONY : firstTask/menu1.i
+.PHONY : Task1/Cpoint.i
 
 # target to preprocess a source file
-firstTask/menu1.cpp.i:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.i
-.PHONY : firstTask/menu1.cpp.i
+Task1/Cpoint.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/Cpoint.cpp.i
+.PHONY : Task1/Cpoint.cpp.i
 
-firstTask/menu1.s: firstTask/menu1.cpp.s
+Task1/Cpoint.s: Task1/Cpoint.cpp.s
 
-.PHONY : firstTask/menu1.s
+.PHONY : Task1/Cpoint.s
 
 # target to generate assembly for a file
-firstTask/menu1.cpp.s:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.s
-.PHONY : firstTask/menu1.cpp.s
+Task1/Cpoint.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/Cpoint.cpp.s
+.PHONY : Task1/Cpoint.cpp.s
+
+Task1/menu1.o: Task1/menu1.cpp.o
+
+.PHONY : Task1/menu1.o
+
+# target to build an object file
+Task1/menu1.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/menu1.cpp.o
+.PHONY : Task1/menu1.cpp.o
+
+Task1/menu1.i: Task1/menu1.cpp.i
+
+.PHONY : Task1/menu1.i
+
+# target to preprocess a source file
+Task1/menu1.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/menu1.cpp.i
+.PHONY : Task1/menu1.cpp.i
+
+Task1/menu1.s: Task1/menu1.cpp.s
+
+.PHONY : Task1/menu1.s
+
+# target to generate assembly for a file
+Task1/menu1.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task1/menu1.cpp.s
+.PHONY : Task1/menu1.cpp.s
+
+Task2/Cperson.o: Task2/Cperson.cpp.o
+
+.PHONY : Task2/Cperson.o
+
+# target to build an object file
+Task2/Cperson.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.o
+.PHONY : Task2/Cperson.cpp.o
+
+Task2/Cperson.i: Task2/Cperson.cpp.i
+
+.PHONY : Task2/Cperson.i
+
+# target to preprocess a source file
+Task2/Cperson.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.i
+.PHONY : Task2/Cperson.cpp.i
+
+Task2/Cperson.s: Task2/Cperson.cpp.s
+
+.PHONY : Task2/Cperson.s
+
+# target to generate assembly for a file
+Task2/Cperson.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.s
+.PHONY : Task2/Cperson.cpp.s
+
+Task2/Cstudent.o: Task2/Cstudent.cpp.o
+
+.PHONY : Task2/Cstudent.o
+
+# target to build an object file
+Task2/Cstudent.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o
+.PHONY : Task2/Cstudent.cpp.o
+
+Task2/Cstudent.i: Task2/Cstudent.cpp.i
+
+.PHONY : Task2/Cstudent.i
+
+# target to preprocess a source file
+Task2/Cstudent.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.i
+.PHONY : Task2/Cstudent.cpp.i
+
+Task2/Cstudent.s: Task2/Cstudent.cpp.s
+
+.PHONY : Task2/Cstudent.s
+
+# target to generate assembly for a file
+Task2/Cstudent.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.s
+.PHONY : Task2/Cstudent.cpp.s
+
+Task2/menu2.o: Task2/menu2.cpp.o
+
+.PHONY : Task2/menu2.o
+
+# target to build an object file
+Task2/menu2.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o
+.PHONY : Task2/menu2.cpp.o
+
+Task2/menu2.i: Task2/menu2.cpp.i
+
+.PHONY : Task2/menu2.i
+
+# target to preprocess a source file
+Task2/menu2.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.i
+.PHONY : Task2/menu2.cpp.i
+
+Task2/menu2.s: Task2/menu2.cpp.s
+
+.PHONY : Task2/menu2.s
+
+# target to generate assembly for a file
+Task2/menu2.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.s
+.PHONY : Task2/menu2.cpp.s
 
 source/input_data.o: source/input_data.cpp.o
 
@@ -294,15 +375,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... univerFirst4Tasks"
-	@echo "... firstTask/Cfrac.o"
-	@echo "... firstTask/Cfrac.i"
-	@echo "... firstTask/Cfrac.s"
-	@echo "... firstTask/Cpoint.o"
-	@echo "... firstTask/Cpoint.i"
-	@echo "... firstTask/Cpoint.s"
-	@echo "... firstTask/menu1.o"
-	@echo "... firstTask/menu1.i"
-	@echo "... firstTask/menu1.s"
+	@echo "... Task1/Cfrac.o"
+	@echo "... Task1/Cfrac.i"
+	@echo "... Task1/Cfrac.s"
+	@echo "... Task1/Cpoint.o"
+	@echo "... Task1/Cpoint.i"
+	@echo "... Task1/Cpoint.s"
+	@echo "... Task1/menu1.o"
+	@echo "... Task1/menu1.i"
+	@echo "... Task1/menu1.s"
+	@echo "... Task2/Cperson.o"
+	@echo "... Task2/Cperson.i"
+	@echo "... Task2/Cperson.s"
+	@echo "... Task2/Cstudent.o"
+	@echo "... Task2/Cstudent.i"
+	@echo "... Task2/Cstudent.s"
+	@echo "... Task2/menu2.o"
+	@echo "... Task2/menu2.i"
+	@echo "... Task2/menu2.s"
 	@echo "... source/input_data.o"
 	@echo "... source/input_data.i"
 	@echo "... source/input_data.s"

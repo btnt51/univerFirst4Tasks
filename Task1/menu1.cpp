@@ -24,7 +24,7 @@ void menu1()
 	std::cout << frac.getP();
 	std::cout << frac.getQ();
 
-	std::cout << "\nFraction In Number="<< frac.toNumber();
+	std::cout << "\nFraction In Number= "<< frac.toNumber();
 
 
 	auto frac1 = frac.toSimple();

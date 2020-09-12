@@ -17,10 +17,11 @@ Cpoint::~Cpoint()
 
 void Cpoint::inputXY()
 {
+	char const * str = "You must enter a real number";
 	std::cout << "\nInput X->";
-	std::cin >> m_x;
+	m_x = inputData(m_x, str);
 	std::cout << "\nInput Y->";
-	std::cin >> m_y;
+	m_y = inputData(m_y, str);
 }
 
 double Cpoint::lengthRadVector() const
