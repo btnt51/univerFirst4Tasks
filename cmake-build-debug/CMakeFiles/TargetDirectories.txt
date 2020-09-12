@@ -1,0 +1,3 @@
+/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir

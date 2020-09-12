@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.cpp
+Cfrac.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.h
+
