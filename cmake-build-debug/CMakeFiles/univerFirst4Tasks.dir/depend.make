@@ -26,8 +26,21 @@ CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.o: ../Task2/Cperson.h
 CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.o: ../headers/includes.h
 CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.o: ../headers/prototypes.h
 
+CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o: ../Task1/Cfrac.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o: ../Task1/Cpoint.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o: ../Task2/Cperson.h
 CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o: ../Task2/Cstudent.cpp
 CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o: ../Task2/Cstudent.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.o: ../headers/prototypes.h
+
+CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o: ../Task1/Cfrac.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o: ../Task1/Cpoint.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o: ../Task2/Cperson.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o: ../Task2/Cstudent.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o: ../Task2/menu2.cpp
+CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.o: ../headers/prototypes.h
 
 CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../Task1/Cfrac.h
 CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../Task1/Cpoint.h

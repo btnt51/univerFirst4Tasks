@@ -6,38 +6,24 @@
 
 #IncludeRegexTransform: 
 
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.cpp
-Cfrac.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h
-
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h
 ../headers/includes.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cpoint.cpp
-Cpoint.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cpoint.h
 
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cpoint.h
 ../headers/includes.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
 
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/menu1.cpp
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.h
 ../headers/includes.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
 
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.cpp
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.h
 Cperson.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.h
 
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.h
-../headers/includes.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.cpp
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/menu2.cpp
 Cstudent.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.h
-
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.h
 
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
@@ -57,16 +43,4 @@ prototypes.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
 
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/source/input_data.cpp
-../headers/includes.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/source/main.cpp
-../headers/includes.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/source/menu.cpp
-../headers/includes.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
 

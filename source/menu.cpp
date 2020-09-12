@@ -7,7 +7,7 @@ void menu()
 {
 	while(true)
 	{
-		std::cout << "Hello in my second program!" << std::endl;
+		std::cout << "\nHello in my second program!" << std::endl;
 		std::cout << "Enter a number from 1 to 4 of task that you want to execute or write 0 to exit"
 			   " from program " << std::endl;
 		char const * str = "You put a wrong number, reenter a number of task from 1 to 4 or 0 to exit.";

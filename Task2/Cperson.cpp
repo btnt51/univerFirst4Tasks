@@ -16,17 +16,18 @@ Cperson::~Cperson()
 
 void Cperson::input()
 {
+	bool True = true;
 	std::cout << "Enter name of a person";
-	std::cin >> m_Name;
+	std::cin >> this->m_Name;
 	std::cout << "Enter year of birth of a person";
 	char const *str = "Wrong input. Please enter a year of birth in integer.";
-	m_Year = inputData(m_Year, str);
-	bool True = true;
+	this->m_Year = inputData(this->m_Year, str);
+	True = true;
 	while(True)
 	{
 		try
 		{
-			if (m_Year < 0)
+			if(this->m_Year < 0)
 			{
 				True = true;
 				throw -1;
@@ -42,7 +43,7 @@ void Cperson::input()
 			True = true;
 			std::cout << "Wrong input. Please enter a year of birth in "
 				"integer above zero." << std::endl;
-			m_Year = inputData(m_Year, str);
+			this->m_Year = inputData(this->m_Year, str);
 		}
 	}
 }

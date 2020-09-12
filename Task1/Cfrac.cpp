@@ -12,15 +12,7 @@ Cfrac::~Cfrac()
 Cfrac::Cfrac(int p, int q)
 {
 	m_p = p;
-	if(q == 0)
-	{
-		std::cout << "Denominator could not equal to zero. "
-			   "Please check the source code" << std::endl;
-	}
-	else
-	{
-		m_q = q;
-	}
+	m_q = q;
 
 }
 
@@ -43,5 +35,10 @@ void Cfrac::inputPQ()
 	m_p = inputData(m_p, str);
 	std::cout << "\nEnter Q:";
 	m_q = inputData(m_q, str);
-	while(m_q == 0){ m_q = inputData(m_q, str2);}
+	while(m_q == 0)
+	{
+		std::cout << "Denominator could not equal to zero. "
+			   "Please enter again denominator" << std::endl;
+		m_q = inputData(m_q, str2);
+	}
 }

@@ -6,8 +6,17 @@
 #define UNIVERFIRST4TASKS_CSTUDENT_H
 #include "Cperson.h"
 
-class Cstudent : protected Cperson
+class Cstudent : public Cperson
 {
+private:
+	std::string m_Faculty = "";
+	int m_GroupNumber = 0;
+
+public:
+	Cstudent();
+	~Cstudent();
+	void input_stud();
+	void printInfo();
 
 };
 

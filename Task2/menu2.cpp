@@ -5,8 +5,8 @@
 
 void menu2()
 {
-	Cstudent FirstStudent;
+	Cstudent Student;
 
-	FirstStudent.input();
-	FirstStudent.PrintInfo();
+	Student.input_stud();
+	Student.printInfo();
 }
