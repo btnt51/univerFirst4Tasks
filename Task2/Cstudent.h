@@ -17,8 +17,6 @@ public:
 	~Cstudent();
 	void input_stud();
 	void printInfo();
-	void changeName();
-
 };
 
 

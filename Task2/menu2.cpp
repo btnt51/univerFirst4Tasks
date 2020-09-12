@@ -9,6 +9,4 @@ void menu2()
 
 	Student.input_stud();
 	Student.printInfo();
-	Student.changeName();
-	Student.printInfo();
 }
