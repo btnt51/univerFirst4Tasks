@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o"
   "CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o"
   "CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o"
-  "CMakeFiles/univerFirst4Tasks.dir/main.cpp.o"
-  "CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o"
+  "CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o"
+  "CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o"
   "univerFirst4Tasks"
   "univerFirst4Tasks.pdb"
 )

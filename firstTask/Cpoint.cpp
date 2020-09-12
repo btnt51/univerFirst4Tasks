@@ -12,6 +12,7 @@ Cpoint::Cpoint(double x, double y)
 
 Cpoint::~Cpoint()
 {
+
 }
 
 void Cpoint::inputXY()

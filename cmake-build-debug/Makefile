@@ -204,59 +204,59 @@ firstTask/menu1.cpp.s:
 	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.s
 .PHONY : firstTask/menu1.cpp.s
 
-main.o: main.cpp.o
+source/main.o: source/main.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-menu.o: menu.cpp.o
-
-.PHONY : menu.o
+.PHONY : source/main.o
 
 # target to build an object file
-menu.cpp.o:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o
-.PHONY : menu.cpp.o
+source/main.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o
+.PHONY : source/main.cpp.o
 
-menu.i: menu.cpp.i
+source/main.i: source/main.cpp.i
 
-.PHONY : menu.i
+.PHONY : source/main.i
 
 # target to preprocess a source file
-menu.cpp.i:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/menu.cpp.i
-.PHONY : menu.cpp.i
+source/main.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
 
-menu.s: menu.cpp.s
+source/main.s: source/main.cpp.s
 
-.PHONY : menu.s
+.PHONY : source/main.s
 
 # target to generate assembly for a file
-menu.cpp.s:
-	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/menu.cpp.s
-.PHONY : menu.cpp.s
+source/main.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
+
+source/menu.o: source/menu.cpp.o
+
+.PHONY : source/menu.o
+
+# target to build an object file
+source/menu.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o
+.PHONY : source/menu.cpp.o
+
+source/menu.i: source/menu.cpp.i
+
+.PHONY : source/menu.i
+
+# target to preprocess a source file
+source/menu.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.i
+.PHONY : source/menu.cpp.i
+
+source/menu.s: source/menu.cpp.s
+
+.PHONY : source/menu.s
+
+# target to generate assembly for a file
+source/menu.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.s
+.PHONY : source/menu.cpp.s
 
 # Help Target
 help:
@@ -276,12 +276,12 @@ help:
 	@echo "... firstTask/menu1.o"
 	@echo "... firstTask/menu1.i"
 	@echo "... firstTask/menu1.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... menu.o"
-	@echo "... menu.i"
-	@echo "... menu.s"
+	@echo "... source/main.o"
+	@echo "... source/main.i"
+	@echo "... source/main.s"
+	@echo "... source/menu.o"
+	@echo "... source/menu.i"
+	@echo "... source/menu.s"
 .PHONY : help
 
 

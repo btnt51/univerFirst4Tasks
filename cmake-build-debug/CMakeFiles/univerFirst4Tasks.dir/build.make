@@ -57,18 +57,18 @@ include CMakeFiles/univerFirst4Tasks.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/univerFirst4Tasks.dir/flags.make
 
-CMakeFiles/univerFirst4Tasks.dir/main.cpp.o: CMakeFiles/univerFirst4Tasks.dir/flags.make
-CMakeFiles/univerFirst4Tasks.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/univerFirst4Tasks.dir/main.cpp.o -c /home/btnt51/CLionProjects/univerFirst4Tasks/main.cpp
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o: CMakeFiles/univerFirst4Tasks.dir/flags.make
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o: ../source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o -c /home/btnt51/CLionProjects/univerFirst4Tasks/source/main.cpp
 
-CMakeFiles/univerFirst4Tasks.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/btnt51/CLionProjects/univerFirst4Tasks/main.cpp > CMakeFiles/univerFirst4Tasks.dir/main.cpp.i
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/btnt51/CLionProjects/univerFirst4Tasks/source/main.cpp > CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.i
 
-CMakeFiles/univerFirst4Tasks.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/btnt51/CLionProjects/univerFirst4Tasks/main.cpp -o CMakeFiles/univerFirst4Tasks.dir/main.cpp.s
+CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/btnt51/CLionProjects/univerFirst4Tasks/source/main.cpp -o CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.s
 
 CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o: CMakeFiles/univerFirst4Tasks.dir/flags.make
 CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o: ../firstTask/Cpoint.cpp
@@ -109,35 +109,35 @@ CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/menu1.cpp -o CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.s
 
-CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o: CMakeFiles/univerFirst4Tasks.dir/flags.make
-CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o: ../menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o -c /home/btnt51/CLionProjects/univerFirst4Tasks/menu.cpp
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o: CMakeFiles/univerFirst4Tasks.dir/flags.make
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o: ../source/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o -c /home/btnt51/CLionProjects/univerFirst4Tasks/source/menu.cpp
 
-CMakeFiles/univerFirst4Tasks.dir/menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/menu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/btnt51/CLionProjects/univerFirst4Tasks/menu.cpp > CMakeFiles/univerFirst4Tasks.dir/menu.cpp.i
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/btnt51/CLionProjects/univerFirst4Tasks/source/menu.cpp > CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.i
 
-CMakeFiles/univerFirst4Tasks.dir/menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/menu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/btnt51/CLionProjects/univerFirst4Tasks/menu.cpp -o CMakeFiles/univerFirst4Tasks.dir/menu.cpp.s
+CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/btnt51/CLionProjects/univerFirst4Tasks/source/menu.cpp -o CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.s
 
 # Object files for target univerFirst4Tasks
 univerFirst4Tasks_OBJECTS = \
-"CMakeFiles/univerFirst4Tasks.dir/main.cpp.o" \
+"CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o" \
 "CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o" \
 "CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o" \
 "CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o" \
-"CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o"
+"CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o"
 
 # External object files for target univerFirst4Tasks
 univerFirst4Tasks_EXTERNAL_OBJECTS =
 
-univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/main.cpp.o
+univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o
 univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o
 univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o
 univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o
-univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o
+univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o
 univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/build.make
 univerFirst4Tasks: CMakeFiles/univerFirst4Tasks.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable univerFirst4Tasks"

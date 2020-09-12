@@ -23,3 +23,9 @@ Cfrac Cfrac::toSimple()
 	auto Gcd = std::gcd(m_p,m_q);
 	return Cfrac(m_p/Gcd, 0);
 }
+
+void Cfrac::inputPQ()
+{
+	std::cout << "\nEnter P:"; std::cin >> m_p;
+	std::cout << "\nEnter Q:"; std::cin >> m_q;
+}

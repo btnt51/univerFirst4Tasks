@@ -4,7 +4,7 @@
 
 #ifndef UNIVERFIRST4TASKS_CFRAC_H
 #define UNIVERFIRST4TASKS_CFRAC_H
-#include "../includes.h"
+#include "../headers/includes.h"
 
 class Cfrac
 {
@@ -18,7 +18,6 @@ public:
 	double toNumber();
 	Cfrac toSimple();
 	void inputPQ();
-
 };
 
 

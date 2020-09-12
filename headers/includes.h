@@ -7,6 +7,7 @@
 #include <iostream>
 #include <cmath>
 #include <numeric>
-#include "firstTask/Cpoint.h"
-#include "firstTask/Cfrac.h"
+#include "../firstTask/Cpoint.h"
+#include "../firstTask/Cfrac.h"
+#include "prototypes.h"
 #endif //UNIVERFIRST4TASKS_INCLUDES_H

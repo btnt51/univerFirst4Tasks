@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cfrac.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/firstTask/Cfrac.cpp.o"
   "/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/Cpoint.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/firstTask/Cpoint.cpp.o"
   "/home/btnt51/CLionProjects/univerFirst4Tasks/firstTask/menu1.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/firstTask/menu1.cpp.o"
-  "/home/btnt51/CLionProjects/univerFirst4Tasks/main.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/main.cpp.o"
-  "/home/btnt51/CLionProjects/univerFirst4Tasks/menu.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/menu.cpp.o"
+  "/home/btnt51/CLionProjects/univerFirst4Tasks/source/main.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o"
+  "/home/btnt51/CLionProjects/univerFirst4Tasks/source/menu.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
