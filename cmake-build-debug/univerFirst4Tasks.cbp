@@ -112,6 +112,27 @@
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/menu2.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.h">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Ctimer.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Ctimer.h">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cvector.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cvector.h">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/menu3.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>

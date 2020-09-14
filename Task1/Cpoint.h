@@ -14,8 +14,8 @@ public:
 	Cpoint(double x, double y);
 	~Cpoint();
     double lengthRadVector() const;
-    double getX() {return m_x;}
-	double getY() {return m_y;}
+    double getX() const {return m_x;}
+	double getY() const {return m_y;}
     Cpoint turnRadVectorOnH(double radian) const;
 	void inputXY();
 };

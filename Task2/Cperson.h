@@ -15,6 +15,14 @@ public:
 	Cperson();
 	~Cperson();
 	void input();
+	Cperson(std::string Name, int Year)
+	{
+		m_Name = Name;
+		std::cout << m_Name << std::endl;
+		m_Year = Year;
+		std::cout << m_Year;
+	}
+
 };
 
 

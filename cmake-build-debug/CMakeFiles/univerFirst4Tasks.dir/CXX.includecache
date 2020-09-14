@@ -6,29 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.cpp
+Cstring.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.h
+string.h
+-
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.h
 ../headers/includes.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cpoint.h
-../headers/includes.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.h
-../headers/includes.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.cpp
-Cstudent.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.h
-Cperson.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.h
-
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/menu2.cpp
-Cstudent.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cstudent.h
 
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
 iostream
@@ -39,10 +25,6 @@ numeric
 -
 fstream
 -
-../Task1/Cpoint.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cpoint.h
-../Task1/Cfrac.h
-/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h
 prototypes.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h
 

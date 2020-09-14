@@ -285,6 +285,114 @@ Task2/menu2.cpp.s:
 	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.s
 .PHONY : Task2/menu2.cpp.s
 
+Task3/Cstring.o: Task3/Cstring.cpp.o
+
+.PHONY : Task3/Cstring.o
+
+# target to build an object file
+Task3/Cstring.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Cstring.cpp.o
+.PHONY : Task3/Cstring.cpp.o
+
+Task3/Cstring.i: Task3/Cstring.cpp.i
+
+.PHONY : Task3/Cstring.i
+
+# target to preprocess a source file
+Task3/Cstring.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Cstring.cpp.i
+.PHONY : Task3/Cstring.cpp.i
+
+Task3/Cstring.s: Task3/Cstring.cpp.s
+
+.PHONY : Task3/Cstring.s
+
+# target to generate assembly for a file
+Task3/Cstring.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Cstring.cpp.s
+.PHONY : Task3/Cstring.cpp.s
+
+Task3/Ctimer.o: Task3/Ctimer.cpp.o
+
+.PHONY : Task3/Ctimer.o
+
+# target to build an object file
+Task3/Ctimer.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Ctimer.cpp.o
+.PHONY : Task3/Ctimer.cpp.o
+
+Task3/Ctimer.i: Task3/Ctimer.cpp.i
+
+.PHONY : Task3/Ctimer.i
+
+# target to preprocess a source file
+Task3/Ctimer.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Ctimer.cpp.i
+.PHONY : Task3/Ctimer.cpp.i
+
+Task3/Ctimer.s: Task3/Ctimer.cpp.s
+
+.PHONY : Task3/Ctimer.s
+
+# target to generate assembly for a file
+Task3/Ctimer.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Ctimer.cpp.s
+.PHONY : Task3/Ctimer.cpp.s
+
+Task3/Cvector.o: Task3/Cvector.cpp.o
+
+.PHONY : Task3/Cvector.o
+
+# target to build an object file
+Task3/Cvector.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.o
+.PHONY : Task3/Cvector.cpp.o
+
+Task3/Cvector.i: Task3/Cvector.cpp.i
+
+.PHONY : Task3/Cvector.i
+
+# target to preprocess a source file
+Task3/Cvector.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.i
+.PHONY : Task3/Cvector.cpp.i
+
+Task3/Cvector.s: Task3/Cvector.cpp.s
+
+.PHONY : Task3/Cvector.s
+
+# target to generate assembly for a file
+Task3/Cvector.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.s
+.PHONY : Task3/Cvector.cpp.s
+
+Task3/menu3.o: Task3/menu3.cpp.o
+
+.PHONY : Task3/menu3.o
+
+# target to build an object file
+Task3/menu3.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.o
+.PHONY : Task3/menu3.cpp.o
+
+Task3/menu3.i: Task3/menu3.cpp.i
+
+.PHONY : Task3/menu3.i
+
+# target to preprocess a source file
+Task3/menu3.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.i
+.PHONY : Task3/menu3.cpp.i
+
+Task3/menu3.s: Task3/menu3.cpp.s
+
+.PHONY : Task3/menu3.s
+
+# target to generate assembly for a file
+Task3/menu3.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.s
+.PHONY : Task3/menu3.cpp.s
+
 source/input_data.o: source/input_data.cpp.o
 
 .PHONY : source/input_data.o
@@ -393,6 +501,18 @@ help:
 	@echo "... Task2/menu2.o"
 	@echo "... Task2/menu2.i"
 	@echo "... Task2/menu2.s"
+	@echo "... Task3/Cstring.o"
+	@echo "... Task3/Cstring.i"
+	@echo "... Task3/Cstring.s"
+	@echo "... Task3/Ctimer.o"
+	@echo "... Task3/Ctimer.i"
+	@echo "... Task3/Ctimer.s"
+	@echo "... Task3/Cvector.o"
+	@echo "... Task3/Cvector.i"
+	@echo "... Task3/Cvector.s"
+	@echo "... Task3/menu3.o"
+	@echo "... Task3/menu3.i"
+	@echo "... Task3/menu3.s"
 	@echo "... source/input_data.o"
 	@echo "... source/input_data.i"
 	@echo "... source/input_data.s"
