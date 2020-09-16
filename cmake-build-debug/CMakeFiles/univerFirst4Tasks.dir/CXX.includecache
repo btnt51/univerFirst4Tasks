@@ -6,15 +6,35 @@
 
 #IncludeRegexTransform: 
 
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.h
+../headers/includes.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.cpp
 Cstring.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.h
-string.h
+cstring
 -
 
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.h
 ../headers/includes.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Ctimer.h
+../headers/includes.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cvector.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/menu3.cpp
+../Task2/Cperson.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task2/Cperson.h
+Ctimer.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Ctimer.h
+Cvector.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cvector.h
+Cstring.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/Cstring.h
 
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
 iostream

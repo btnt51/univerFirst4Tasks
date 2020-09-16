@@ -16,10 +16,6 @@ public:
 	Cstring(char const *str);
 	~Cstring();
 	void output();
-	int getLen() const{ return m_length;}
-	//Cstring operator= (const Cstring str);
-	Cstring operator+= (const Cstring str);
-
 };
 
 
