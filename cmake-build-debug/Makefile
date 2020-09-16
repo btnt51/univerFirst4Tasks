@@ -393,6 +393,60 @@ Task3/menu3.cpp.s:
 	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.s
 .PHONY : Task3/menu3.cpp.s
 
+Task4/Ccomplex.o: Task4/Ccomplex.cpp.o
+
+.PHONY : Task4/Ccomplex.o
+
+# target to build an object file
+Task4/Ccomplex.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.o
+.PHONY : Task4/Ccomplex.cpp.o
+
+Task4/Ccomplex.i: Task4/Ccomplex.cpp.i
+
+.PHONY : Task4/Ccomplex.i
+
+# target to preprocess a source file
+Task4/Ccomplex.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.i
+.PHONY : Task4/Ccomplex.cpp.i
+
+Task4/Ccomplex.s: Task4/Ccomplex.cpp.s
+
+.PHONY : Task4/Ccomplex.s
+
+# target to generate assembly for a file
+Task4/Ccomplex.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.s
+.PHONY : Task4/Ccomplex.cpp.s
+
+Task4/menu4.o: Task4/menu4.cpp.o
+
+.PHONY : Task4/menu4.o
+
+# target to build an object file
+Task4/menu4.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o
+.PHONY : Task4/menu4.cpp.o
+
+Task4/menu4.i: Task4/menu4.cpp.i
+
+.PHONY : Task4/menu4.i
+
+# target to preprocess a source file
+Task4/menu4.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.i
+.PHONY : Task4/menu4.cpp.i
+
+Task4/menu4.s: Task4/menu4.cpp.s
+
+.PHONY : Task4/menu4.s
+
+# target to generate assembly for a file
+Task4/menu4.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.s
+.PHONY : Task4/menu4.cpp.s
+
 source/input_data.o: source/input_data.cpp.o
 
 .PHONY : source/input_data.o
@@ -513,6 +567,12 @@ help:
 	@echo "... Task3/menu3.o"
 	@echo "... Task3/menu3.i"
 	@echo "... Task3/menu3.s"
+	@echo "... Task4/Ccomplex.o"
+	@echo "... Task4/Ccomplex.i"
+	@echo "... Task4/Ccomplex.s"
+	@echo "... Task4/menu4.o"
+	@echo "... Task4/menu4.i"
+	@echo "... Task4/menu4.s"
 	@echo "... source/input_data.o"
 	@echo "... source/input_data.i"
 	@echo "... source/input_data.s"

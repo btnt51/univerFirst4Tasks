@@ -133,6 +133,15 @@
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/menu3.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task4/Ccomplex.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task4/Ccomplex.h">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/Task4/menu4.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>

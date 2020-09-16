@@ -46,6 +46,8 @@ CMakeFiles/univerFirst4Tasks.dir/Task3/Ctimer.cpp.o: ../headers/prototypes.h
 
 CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.o: ../Task3/Cvector.cpp
 CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.o: ../Task3/Cvector.h
+CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.o: ../headers/prototypes.h
 
 CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.o: ../Task2/Cperson.h
 CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.o: ../Task3/Cstring.h

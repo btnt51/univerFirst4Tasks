@@ -13,5 +13,6 @@ void menu3()
 	Ctimer testSec(60);
 	Cstring str("Hello world");
 	str.output();
-
+	Cvector vec(1,5,10);
+	vec.print();
 }
