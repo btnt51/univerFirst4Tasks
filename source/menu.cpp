@@ -32,7 +32,7 @@ void menu()
 				menu3();
 				break;
 			case 4:
-				//menu4();
+				menu4();
 				break;
 			default:
 				break;

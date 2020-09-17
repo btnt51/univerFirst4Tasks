@@ -13,11 +13,29 @@ void menu1()
 	std::cout << "\nx=" << point.getX()<< std::endl;
 	std::cout << "\ny=" << point.getY() << std::endl;
 	std::cout <<"LongVector"<< point.lengthRadVector() << std::endl;
-
-	auto point1 = point.turnRadVectorOnH(pi / i);
-
-	std::cout << "Rotation of a vector by 15 radians its coordinates"<<  " x=" << point1.getX()
-		 <<" y=" << point1.getY() << std::endl;
+	std::cout << "Choose how u want to turn radius vector."
+			  " \nType r if u want to use radians"
+	 "\nType d if u want to use degrees" << std::endl;
+	char select = ' ';
+	std::cin >> select;
+	while ((select != 'r') && (select != 'd')&&(select !='R') && ( select!='D'))
+	{
+		std::cout << "\nYou entered an invalid value."
+			   "Repeat one more time." << std::endl;;
+		std::cin >> select;
+	}
+	if ((select == 'g') || (select =='G'))
+	{
+		auto point1 = point.turnRadVecOnHGRAD();
+		std::cout << " x=" << point1.getX() << " y=" << point1.getY()
+		<< std::endl;
+	}
+	if ((select == 'r') || (select =='R'))
+	{
+		auto point1 = point.turnRadVecOnHRAD();
+		std::cout << " x=" << point1.getX() << " y=" << point1.getY() << std::endl;
+	}
+}
 
 	Cfrac frac(0, 0);
 

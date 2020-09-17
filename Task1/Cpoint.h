@@ -16,7 +16,8 @@ public:
     double lengthRadVector() const;
     double getX() const {return m_x;}
 	double getY() const {return m_y;}
-    Cpoint turnRadVectorOnH(double radian) const;
+    Cpoint turnRadVecOnHRAD();
+    Cpoint turnRadVecOnHGRAD();
 	void inputXY();
 };
 
