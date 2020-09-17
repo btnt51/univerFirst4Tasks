@@ -32,7 +32,7 @@ double Cpoint::lengthRadVector() const
 Cpoint Cpoint::turnRadVecOnHRAD()
 {
 	char const * str = "Wrong inputed data, reenter radian in real number";
-	double radian;
+	double radian = 0.0;
 	std::cout << "\nInput h-> ";
 	radian = inputData(radian, str);
 	std::cout << "\nRotation of a vector by " << radian << " radian its coordinates ";
@@ -42,7 +42,7 @@ Cpoint Cpoint::turnRadVecOnHRAD()
 Cpoint Cpoint::turnRadVecOnHGRAD()
 {
 	char const * str = "Wrong inputed data, reenter degree in real number";
-	double grad;
+	double grad = 0.0;
 	double Pi = 3.14;
 	std::cout << "\nInput h-> ";
 	grad = inputData(grad, str);

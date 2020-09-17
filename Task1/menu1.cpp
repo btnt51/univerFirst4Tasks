@@ -6,8 +6,7 @@
 
 void menu1()
 {
-	const double pi = 3.14;
-	double i = 15;
+	std::cout << "<---------------Cpoint-------------->" << std::endl;
 	Cpoint point(0.0,0.0);
 	point.inputXY();
 	std::cout << "\nx=" << point.getX()<< std::endl;
@@ -21,10 +20,10 @@ void menu1()
 	while ((select != 'r') && (select != 'd')&&(select !='R') && ( select!='D'))
 	{
 		std::cout << "\nYou entered an invalid value."
-			   "Repeat one more time." << std::endl;;
+			   "Repeat one more time." << std::endl;
 		std::cin >> select;
 	}
-	if ((select == 'g') || (select =='G'))
+	if ((select == 'd') || (select =='D'))
 	{
 		auto point1 = point.turnRadVecOnHGRAD();
 		std::cout << " x=" << point1.getX() << " y=" << point1.getY()
@@ -35,10 +34,9 @@ void menu1()
 		auto point1 = point.turnRadVecOnHRAD();
 		std::cout << " x=" << point1.getX() << " y=" << point1.getY() << std::endl;
 	}
-}
 
+	std::cout << "<---------------Cfrac-------------->" << std::endl;
 	Cfrac frac(0, 0);
-
 	frac.inputPQ();
 	std::cout << frac.getP();
 	std::cout << frac.getQ();
