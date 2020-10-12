@@ -19,19 +19,19 @@ public:
 	Cfrac toSimple() const;
 	void inputPQ();
 	Cfrac operator+(int value) const;
-	Cfrac operator+(Cfrac b) const;
+	Cfrac operator+(const Cfrac& b) const;
 	Cfrac operator-(int value) const;
-	Cfrac operator-(Cfrac b) const;
+	Cfrac operator-(const Cfrac& b) const;
 	Cfrac operator*(int value) const;
-	Cfrac operator*(Cfrac b) const;
+	Cfrac operator*(const Cfrac& b) const;
 	Cfrac operator/(int value) const;
-	Cfrac operator/(Cfrac b) const;
+	Cfrac operator/(const Cfrac& b) const;
 	void operator+=(int value);
-	void operator+=(Cfrac b);
+	void operator+=(const Cfrac& b);
 	void operator*=(int value);
-	void operator*=(Cfrac b);
+	void operator*=(const Cfrac& b);
 	void operator/=(int value);
-	void operator/=(Cfrac b);
+	void operator/=(const Cfrac& b);
 };
 
 

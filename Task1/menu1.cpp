@@ -48,8 +48,8 @@ void menu1()
 	std::cout << "<---------------Cfrac-------------->" << std::endl;
 	Cfrac frac(0, 0);
 	frac.inputPQ();
-	std::cout << frac.getP();
-	std::cout << frac.getQ();
+	std::cout << "P = " << frac.getP();
+	std::cout << "\nQ = " << frac.getQ();
 
 	std::cout << "\nFraction In Number= "<< frac.toNumber();
 
