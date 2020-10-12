@@ -13,11 +13,25 @@ private:
 public:
 	Cfrac(int p, int q);
 	~Cfrac();
-	int getP(){return m_p;}
-	int getQ(){return m_q;}
+	int getP() const{return m_p;}
+	int getQ() const{return m_q;}
 	double toNumber() const;
 	Cfrac toSimple() const;
 	void inputPQ();
+	Cfrac operator+(int value) const;
+	Cfrac operator+(Cfrac b) const;
+	Cfrac operator-(int value) const;
+	Cfrac operator-(Cfrac b) const;
+	Cfrac operator*(int value) const;
+	Cfrac operator*(Cfrac b) const;
+	Cfrac operator/(int value) const;
+	Cfrac operator/(Cfrac b) const;
+	void operator+=(int value);
+	void operator+=(Cfrac b);
+	void operator*=(int value);
+	void operator*=(Cfrac b);
+	void operator/=(int value);
+	void operator/=(Cfrac b);
 };
 
 

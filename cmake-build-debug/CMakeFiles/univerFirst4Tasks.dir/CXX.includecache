@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.cpp
+Cfrac.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h
+
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h
 ../headers/includes.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
@@ -18,6 +22,16 @@
 Cpoint.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cpoint.h
 Cfrac.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task4/Ccomplex.h
+../headers/includes.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h
+
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task4/menu4.cpp
+Ccomplex.h
+/home/btnt51/CLionProjects/univerFirst4Tasks/Task4/Ccomplex.h
+../Task1/Cfrac.h
 /home/btnt51/CLionProjects/univerFirst4Tasks/Task1/Cfrac.h
 
 /home/btnt51/CLionProjects/univerFirst4Tasks/headers/includes.h

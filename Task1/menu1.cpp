@@ -25,14 +25,24 @@ void menu1()
 	}
 	if ((select == 'd') || (select =='D'))
 	{
-		auto point1 = point.turnRadVecOnHGRAD();
-		std::cout << " x=" << point1.getX() << " y=" << point1.getY()
+		char const * str = "Wrong inputed data, reenter degree in real number";
+		double degrees = 0.0;
+		std::cout << "\nInput h-> ";
+		degrees = inputData(degrees, str);
+		auto point1 = point.turnRadVecOnHGRAD(degrees);
+		std::cout << "\nRotation of a vector by " << degrees << " degree its coordinates ";
+		std::cout << "\nx=" << point1.getX() << " y=" << point1.getY()
 		<< std::endl;
 	}
 	if ((select == 'r') || (select =='R'))
 	{
-		auto point1 = point.turnRadVecOnHRAD();
-		std::cout << " x=" << point1.getX() << " y=" << point1.getY() << std::endl;
+		char const * str = "Wrong inputed data, reenter radian in real number";
+		double radian = 0.0;
+		std::cout << "\nInput h-> ";
+		radian = inputData(radian, str);
+		auto point1 = point.turnRadVecOnHRAD(radian);
+		std::cout << "\nRotation of a vector by " << radian << " radian its coordinates " ;
+		std::cout << "\nx=" << point1.getX() << " y=" << point1.getY() << std::endl;
 	}
 
 	std::cout << "<---------------Cfrac-------------->" << std::endl;

@@ -29,23 +29,15 @@ double Cpoint::lengthRadVector() const
     return sqrt((m_x*m_x) + (m_y*m_y));
 }
 
-Cpoint Cpoint::turnRadVecOnHRAD()
+Cpoint Cpoint::turnRadVecOnHRAD(double radian) const
 {
-	char const * str = "Wrong inputed data, reenter radian in real number";
-	double radian = 0.0;
-	std::cout << "\nInput h-> ";
-	radian = inputData(radian, str);
-	std::cout << "\nRotation of a vector by " << radian << " radian its coordinates ";
-	return Cpoint(m_x * cos(radian) + m_y * sin(radian), -m_x * sin(radian) + m_y * cos(radian));
+	return Cpoint(m_x * cos(radian) + m_y * sin(radian),
+			-m_x * sin(radian) + m_y * cos(radian));
 }
 
-Cpoint Cpoint::turnRadVecOnHGRAD()
+Cpoint Cpoint::turnRadVecOnHGRAD(double degrees) const
 {
-	char const * str = "Wrong inputed data, reenter degree in real number";
-	double grad = 0.0;
 	double Pi = 3.14;
-	std::cout << "\nInput h-> ";
-	grad = inputData(grad, str);
-	std::cout << "\nRotation of a vector by " << grad << " degree its coordinates ";
-	return Cpoint(m_x * cos(grad/(180/Pi)) + m_y * sin(grad / (180 / Pi)), -m_x * sin(grad / (180 / Pi)) + m_y * cos(grad / (180 / Pi)));
+	return Cpoint(m_x * cos(degrees/(180/Pi)) + m_y * sin(degrees / (180 / Pi)),
+			-m_x * sin(degrees / (180 / Pi)) + m_y * cos(degrees / (180 / Pi)));
 }

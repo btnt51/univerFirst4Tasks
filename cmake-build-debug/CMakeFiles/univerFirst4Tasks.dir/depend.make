@@ -62,6 +62,7 @@ CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.o: ../Task4/Ccomplex.h
 CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.o: ../headers/includes.h
 CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.o: ../headers/prototypes.h
 
+CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o: ../Task1/Cfrac.h
 CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o: ../Task4/Ccomplex.h
 CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o: ../Task4/menu4.cpp
 CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o: ../headers/includes.h
