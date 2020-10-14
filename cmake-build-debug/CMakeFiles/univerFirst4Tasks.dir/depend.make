@@ -68,6 +68,10 @@ CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o: ../Task4/menu4.cpp
 CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o: ../headers/includes.h
 CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o: ../headers/prototypes.h
 
+CMakeFiles/univerFirst4Tasks.dir/source/cfrac_div_checker.cpp.o: ../headers/includes.h
+CMakeFiles/univerFirst4Tasks.dir/source/cfrac_div_checker.cpp.o: ../headers/prototypes.h
+CMakeFiles/univerFirst4Tasks.dir/source/cfrac_div_checker.cpp.o: ../source/cfrac_div_checker.cpp
+
 CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../headers/includes.h
 CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../headers/prototypes.h
 CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o: ../source/input_data.cpp

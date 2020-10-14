@@ -447,6 +447,33 @@ Task4/menu4.cpp.s:
 	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.s
 .PHONY : Task4/menu4.cpp.s
 
+source/cfrac_div_checker.o: source/cfrac_div_checker.cpp.o
+
+.PHONY : source/cfrac_div_checker.o
+
+# target to build an object file
+source/cfrac_div_checker.cpp.o:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/cfrac_div_checker.cpp.o
+.PHONY : source/cfrac_div_checker.cpp.o
+
+source/cfrac_div_checker.i: source/cfrac_div_checker.cpp.i
+
+.PHONY : source/cfrac_div_checker.i
+
+# target to preprocess a source file
+source/cfrac_div_checker.cpp.i:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/cfrac_div_checker.cpp.i
+.PHONY : source/cfrac_div_checker.cpp.i
+
+source/cfrac_div_checker.s: source/cfrac_div_checker.cpp.s
+
+.PHONY : source/cfrac_div_checker.s
+
+# target to generate assembly for a file
+source/cfrac_div_checker.cpp.s:
+	$(MAKE) -f CMakeFiles/univerFirst4Tasks.dir/build.make CMakeFiles/univerFirst4Tasks.dir/source/cfrac_div_checker.cpp.s
+.PHONY : source/cfrac_div_checker.cpp.s
+
 source/input_data.o: source/input_data.cpp.o
 
 .PHONY : source/input_data.o
@@ -573,6 +600,9 @@ help:
 	@echo "... Task4/menu4.o"
 	@echo "... Task4/menu4.i"
 	@echo "... Task4/menu4.s"
+	@echo "... source/cfrac_div_checker.o"
+	@echo "... source/cfrac_div_checker.i"
+	@echo "... source/cfrac_div_checker.s"
 	@echo "... source/input_data.o"
 	@echo "... source/input_data.i"
 	@echo "... source/input_data.s"

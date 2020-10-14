@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/btnt51/CLionProjects/univerFirst4Tasks/Task3/menu3.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.o"
   "/home/btnt51/CLionProjects/univerFirst4Tasks/Task4/Ccomplex.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.o"
   "/home/btnt51/CLionProjects/univerFirst4Tasks/Task4/menu4.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.o"
+  "/home/btnt51/CLionProjects/univerFirst4Tasks/source/cfrac_div_checker.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/source/cfrac_div_checker.cpp.o"
   "/home/btnt51/CLionProjects/univerFirst4Tasks/source/input_data.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.o"
   "/home/btnt51/CLionProjects/univerFirst4Tasks/source/main.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.o"
   "/home/btnt51/CLionProjects/univerFirst4Tasks/source/menu.cpp" "/home/btnt51/CLionProjects/univerFirst4Tasks/cmake-build-debug/CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.o"

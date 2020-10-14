@@ -11,11 +11,32 @@ void menu4()
 	Ccomplex c;
 
 	c = a / b;
-
-	std::cout << c.getReal() <<"|" << c.getImag()<< std::endl;
+	std::cout << "c = a / b \t(a(8,5) b(5,1))" << std::endl;
+	std::cout << "c-real " << c.getReal() << " | " << "c-imag " << c.getImag()<< std::endl;
 
 
 	b *= a;
-	std::cout << b.getReal() << "|" << b.getImag() << std::endl;
+	std::cout << "b *= a \t(a(8,5) b(5,1))" << std::endl;
+	std::cout << "b-real " << b.getReal() << " | " << "b-imag " << b.getImag() << std::endl;
+
+	std::cout << "--------------------Cfac--------------------" << std::endl;
+	Cfrac A(1, 2);
+	Cfrac B(1, 4);
+	Cfrac C(0, 0);
+	try
+	{
+		C = A/B;
+
+		std::cout << C.getP() << "/";
+		std::cout << C.getQ();
+
+		auto D = C.toSimple();
+		std::cout << "\nP/Q=" << D.getP() << '/' << D.getQ() << "=" << D.toNumber() << std::endl;
+
+	}
+	catch (int a)
+	{
+		std::cout << "We can`t div on zero!" << std::endl;
+	}
 
 }

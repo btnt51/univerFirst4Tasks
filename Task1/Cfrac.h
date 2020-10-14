@@ -18,20 +18,10 @@ public:
 	double toNumber() const;
 	Cfrac toSimple() const;
 	void inputPQ();
-	Cfrac operator+(int value) const;
 	Cfrac operator+(const Cfrac& b) const;
-	Cfrac operator-(int value) const;
 	Cfrac operator-(const Cfrac& b) const;
-	Cfrac operator*(int value) const;
 	Cfrac operator*(const Cfrac& b) const;
-	Cfrac operator/(int value) const;
 	Cfrac operator/(const Cfrac& b) const;
-	void operator+=(int value);
-	void operator+=(const Cfrac& b);
-	void operator*=(int value);
-	void operator*=(const Cfrac& b);
-	void operator/=(int value);
-	void operator/=(const Cfrac& b);
 };
 
 

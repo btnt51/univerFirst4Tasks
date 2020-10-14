@@ -25,8 +25,8 @@ double Cfrac::toNumber() const
 
 Cfrac Cfrac::toSimple() const
 {
-	int Gcd = std::gcd(m_p,m_q);
-	return Cfrac(m_p/Gcd, m_q/Gcd);
+	int gcd = std::gcd(m_p, m_q);
+	return Cfrac(m_p/gcd, m_q/gcd);
 }
 
 void Cfrac::inputPQ()
@@ -45,234 +45,29 @@ void Cfrac::inputPQ()
 	}
 }
 
-Cfrac Cfrac::operator+(int value) const
-{
-	Cfrac c(0,0);
-	int downVal = 1;
-	if(this->m_q== 0 && this->m_p == 0)
-	{
-		c.m_p = this->m_p + value;
-		c.m_q = this-> m_q + downVal;
-		return c;
-	}
-	else
-	{
-		if (this->m_q == downVal) {
-			c.m_p= this->m_p + value;
-			c.m_q = this->m_q;
-			return c;
-		}
-		else
-		{
-			value = value * this->m_q;
-			c.m_p = this->m_p + value;
-			c.m_q = this->m_q;
-			return c;
-		}
-	}
-}
-
 Cfrac Cfrac::operator+(const Cfrac& b) const
 {
-	Cfrac c(0,0);
-	if(this->m_q== 0 && this->m_p == 0)
-	{
-		c.m_p += b.m_p ;
-		c.m_q = b.m_q;
-		return c;
-	}
-	else
-	{
-		if (this->m_q == b.m_q)
-		{
-			c.m_p = this->m_p + b.m_p;
-			c.m_q = this->m_q;
-			return c;
-		}
-		else
-		{
-			int l = this->m_p;
-			int k = b.m_p;
-			int g = this->m_q;
-			int o = b.m_q;
-			l *= o;
-			k *= g;
-			c.m_p = l + k;
-			c.m_q = g * o;
-			return c;
-		}
-	}
-}
+	int LCM = this->m_q * b.m_q / std::gcd(this->m_q, b.m_q);
 
-Cfrac Cfrac::operator-(int value) const
-{
-	Cfrac c(0,0);
-	int downVal = 1;
-	if(this->m_q == 0 && this->m_p == 0)
-	{
-		c.m_p= this->m_p + value;
-		c.m_q= this->m_q + downVal;
-		return c;
-	}
-	else
-	{
-		if (this->m_q == downVal)
-	{
-			c.m_p = this->m_p - value;
-			c.m_q = this->m_q;
-			return c;
-		}
-		else
-		{
-			value = value * this->m_q;
-			c.m_p = this->m_p - value;
-			c.m_q = this->m_q;
-			return c;
-		}
-	}
+	return Cfrac(((this->m_p * (LCM / this->m_q)) + (b.m_p * (LCM / b.m_q))), LCM);
 }
 
 Cfrac Cfrac::operator-(const Cfrac& b) const
 {
-	Cfrac c(0,0);
-	if(this->m_q== 0 && this->m_p == 0)
-	{
-		c.m_p -= b.m_p ;
-		c.m_q = b.m_q;
-		return c;
-	}
-	else
-	{
-		if (this->m_q == b.m_q)
-		{
-			c.m_p = this->m_p - b.m_p;
-			c.m_q = (this->m_q);
-			return c;
-		}
-		else
-		{
-			int l = this->m_p;
-			int k = b.m_p;
-			int g = this->m_q;
-			int o = b.m_q;
-			l *= o;
-			k *= g;
-			c.m_p = l - k;
-			c.m_q = g * o;
-			return c;
-		}
-	}
-}
+	int LCM = this->m_q * b.m_q / std::gcd(this->m_q, b.m_q);
 
-void Cfrac::operator+=(int value)
-{
-	int downVal = 1;
-	if(this->m_q== 0 && this->m_p == 0)
-	{
-		this->m_p += value;
-		this->m_q = downVal;
-	}
-	else
-	{
-		if (this->m_q == downVal)
-		{
-			this->m_p += value;
-
-		}
-		else
-		{
-			value = value * this->m_q;
-			this->m_p += value;
-		}
-	}
-}
-
-void Cfrac::operator+=(const Cfrac& b)
-{
-	if(this->m_q== 0 && this->m_p == 0)
-	{
-		this->m_p = b.m_p;
-		this->m_q = b.m_q;
-	}
-	else
-	{
-		if (this->m_q == b.m_q)
-		{
-			this->m_p += b.m_p;
-		}
-		else
-		{
-			int l = this->m_p;
-			int k = b.m_p;
-			int g = this->m_q;
-			int o = b.m_q;
-			l *= o;
-			k *= g;
-			this->m_p = (l + k);
-			this->m_q = (g * o);
-		}
-	}
-}
-
-Cfrac Cfrac::operator*(int value) const
-{
-	Cfrac c(0,0);
-	c.m_p = (this->m_p * value);
-	c.m_q = (this->m_q * 1);
-	return c;
+	return Cfrac(((this->m_p * (LCM / this->m_q)) - (b.m_p * (LCM / b.m_q))), LCM);
 }
 
 Cfrac Cfrac::operator*(const Cfrac& b) const
 {
-	Cfrac c(0,0);
-	c.m_p = (this->m_p * b.m_p);
-	c.m_q = (this->m_q * b.m_q);
-	return c;
-}
-
-Cfrac Cfrac::operator/(int value) const
-{
-	Cfrac c(0,0);
-	int downVal = 1;
-	c.m_p = (this->m_p * downVal);
-	c.m_q = (this->m_q * value);
-	return c;
+	return Cfrac((this->m_p* b.m_p), (this->m_q * b.m_q));
 }
 
 Cfrac Cfrac::operator/(const Cfrac& b) const
 {
-	Cfrac c(0,0);
-	c.m_p = (this->m_p * b.m_q);
-	c.m_q = (this->m_q * b.m_p);
-	return c;
-}
-
-void Cfrac::operator*=(int value)
-	{
-	this->m_p = (this->m_p * value);
-}
-
-void Cfrac::operator*=(const Cfrac& b)
-	{
-	this->m_p = (this->m_p*b.m_p);
-	this->m_q = (this->m_q*b.m_q);
-}
-
-void Cfrac::operator/=(int value)
-	{
-	this->m_q = (this->m_q * value);
-}
-
-void Cfrac::operator/=(const Cfrac& b)
-{
-	try
-	{
-		this->m_p = (this->m_p * b.m_q);
-		this->m_q = (this->m_q * b.m_p);
-	}
-	catch(const std::exception& err)
-	{
-		std::cout << "Couldn`t div or mul on zero" << std::endl;
-	}
+	if (b.m_p == 0 || this->m_p == 0)
+		throw 0;
+	return Cfrac((this->m_p * b.m_q), (this->m_q * b.m_p));
 }
 

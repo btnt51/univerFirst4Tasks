@@ -148,6 +148,9 @@
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/headers/prototypes.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
+		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/source/cfrac_div_checker.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
 		<Unit filename="/home/btnt51/CLionProjects/univerFirst4Tasks/source/input_data.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
