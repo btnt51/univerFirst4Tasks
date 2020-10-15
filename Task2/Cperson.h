@@ -20,9 +20,8 @@ public:
 		m_Name = Name;
 		std::cout << m_Name << std::endl;
 		m_Year = Year;
-		std::cout << m_Year;
+		std::cout << m_Year;//ограничить
 	}
-
 };
 
 

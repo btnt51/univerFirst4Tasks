@@ -9,7 +9,7 @@
 class Cstring
 {
 private:
-	char * m_string;
+	char *m_string;
 	int m_length;
 public:
 	Cstring();

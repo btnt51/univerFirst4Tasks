@@ -3,7 +3,7 @@
 //
 
 #include "Cfrac.h"
-#include <exception>
+
 
 Cfrac::~Cfrac()
 {
@@ -12,10 +12,16 @@ Cfrac::~Cfrac()
 
 Cfrac::Cfrac(int p, int q)
 {
-	m_p = p;
-	m_q = q;
-
-
+    if(q < 0)
+    {
+        m_p = -p;
+        m_q = abs(q);
+    }
+    else
+    {
+        m_p = p;
+        m_q = q;
+    }
 }
 
 double Cfrac::toNumber() const
@@ -34,15 +40,27 @@ void Cfrac::inputPQ()
 	char const * str = "You must enter an integer";
 	char const * str2 = "You must enter an integer that doesn`t equal to zero";
 	std::cout << "\nEnter P:";
-	m_p = inputData(m_p, str);
+	int ptemp =0;
+	ptemp = inputData(ptemp, str);
 	std::cout << "\nEnter Q:";
-	m_q = inputData(m_q, str);
-	while(m_q == 0)
+    int qtemp = 0;
+    qtemp = inputData(qtemp, str);
+	while(qtemp == 0)
 	{
 		std::cout << "Denominator could not equal to zero. "
 			   "Please enter again denominator" << std::endl;
-		m_q = inputData(m_q, str2);
+        qtemp = inputData(qtemp, str2);
 	}
+	if(qtemp < 0)
+    {
+	    m_p = -ptemp;
+	    m_q = abs(qtemp);
+    }
+	else
+    {
+        m_p = ptemp;
+        m_q = qtemp;
+    }
 }
 
 Cfrac Cfrac::operator+(const Cfrac& b) const

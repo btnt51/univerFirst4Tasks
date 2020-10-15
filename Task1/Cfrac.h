@@ -13,8 +13,8 @@ private:
 public:
 	Cfrac(int p, int q);
 	~Cfrac();
-	int getP() const{return m_p;}
-	int getQ() const{return m_q;}
+	int getP() const{ return m_p; }
+	int getQ() const{ return m_q; }
 	double toNumber() const;
 	Cfrac toSimple() const;
 	void inputPQ();

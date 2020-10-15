@@ -20,19 +20,22 @@ void menu4()
 	std::cout << "b-real " << b.getReal() << " | " << "b-imag " << b.getImag() << std::endl;
 
 	std::cout << "--------------------Cfac--------------------" << std::endl;
-	Cfrac A(1, 2);
-	Cfrac B(1, 4);
+	Cfrac A(0, 0);
+	Cfrac B(0, 0);
+	A.inputPQ();
+	B.inputPQ();
 	Cfrac C(0, 0);
 	try
 	{
+        std::cout << "A= " ;
+        std::cout << A.getP() << "/";
+        std::cout << A.getQ() << std::endl;
+        std::cout << "B= " ;
+        std::cout << B.getP() << "/";
+        std::cout << B.getQ() << std::endl;
 		C = A/B;
-
-		std::cout << C.getP() << "/";
-		std::cout << C.getQ();
-
-		auto D = C.toSimple();
-		std::cout << "\nP/Q=" << D.getP() << '/' << D.getQ() << "=" << D.toNumber() << std::endl;
-
+        C.toSimple();
+		std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
 	}
 	catch (int a)
 	{

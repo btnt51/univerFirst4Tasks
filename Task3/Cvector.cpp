@@ -16,9 +16,9 @@ Cvector::Cvector(int x, int y, int z)
 	m_z = z;
 }
 
-void Cvector::print()
+void Cvector::print() const
 {
-	std::cout << "coordinat by x =" << std::setw(5) << this->m_x << std::endl;
-	std::cout << "coordinat by y = " << std::setw(4) << this->m_y << std::endl;
-	std::cout << "coordinat by z = " << std::setw(4) << this->m_z << std::endl;
+	std::cout << "coordinate by x =" << std::setw(5) << this->m_x << std::endl;
+	std::cout << "coordinate by y = " << std::setw(4) << this->m_y << std::endl;
+	std::cout << "coordinate by z = " << std::setw(4) << this->m_z << std::endl;
 }

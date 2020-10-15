@@ -16,7 +16,7 @@ public:
 	Cvector();
 	Cvector(int x, int y, int z);
 	~Cvector();
-	void print();
+	void print() const;
 
 };
 
