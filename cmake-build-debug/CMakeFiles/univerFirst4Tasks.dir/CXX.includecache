@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< Updated upstream
 /home/btnt51/gitKrakenGitHub/univerFirst4Tasks/headers/includes.h
+=======
+C:/Users/btnt51/Documents/univerFirst4Tasks/Task1/Cfrac.cpp
+Cfrac.h
+C:/Users/btnt51/Documents/univerFirst4Tasks/Task1/Cfrac.h
+
+C:/Users/btnt51/Documents/univerFirst4Tasks/Task1/Cfrac.h
+../headers/includes.h
+C:/Users/btnt51/Documents/univerFirst4Tasks/headers/includes.h
+
+C:/Users/btnt51/Documents/univerFirst4Tasks/headers/includes.h
+>>>>>>> Stashed changes
 iostream
 -
 cmath

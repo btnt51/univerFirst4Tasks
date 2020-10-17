@@ -21,7 +21,7 @@ Ccomplex::~Ccomplex()
 
 }
 
-Ccomplex &Ccomplex::operator*=(Ccomplex another)
+Ccomplex &Ccomplex::operator*=(const Ccomplex& another)
 {
 	double buff_R = m_realVal * another.m_realVal - m_imagVal * another.m_imagVal;
 	double buff_I = m_realVal * another.m_imagVal + another.m_realVal * m_imagVal;
@@ -30,7 +30,7 @@ Ccomplex &Ccomplex::operator*=(Ccomplex another)
 	return *this;
 }
 
-Ccomplex Ccomplex::operator/(const Ccomplex &another)
+Ccomplex Ccomplex::operator/(const Ccomplex &another) const
 {
 	auto k = (pow(another.m_realVal, 2) + pow(another.m_imagVal, 2));
 
@@ -38,13 +38,14 @@ Ccomplex Ccomplex::operator/(const Ccomplex &another)
 			, ((m_imagVal * another.m_realVal - m_realVal * another.m_imagVal) / k));
 }
 
-Ccomplex &Ccomplex::operator=(Ccomplex another)
+Ccomplex &Ccomplex::operator=(const Ccomplex& another)
 {
 	this->m_realVal = another.m_realVal;
 	this->m_imagVal = another.m_imagVal;
 	return *this;
 }
 
+<<<<<<< Updated upstream
 void Ccomplex::menu()
 {
 	Ccomplex a(8, 1);
@@ -60,3 +61,13 @@ void Ccomplex::menu()
 	std::cout << "b *= a \t(a(8,5) b(5,1))" << std::endl;
 	std::cout << "b-real " << b.getReal() << " | " << "b-imag " << b.getImag() << std::endl;
 }
+=======
+void Ccomplex::Enter()
+{
+    char const* str = "You must enter a real number";
+    std::cout << "\nInput real->";
+    m_realVal = inputData(m_realVal, str);
+    std::cout << "\nInput imag->";
+    m_realVal = inputData(m_realVal, str);
+}
+>>>>>>> Stashed changes

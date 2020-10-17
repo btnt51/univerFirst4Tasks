@@ -40,7 +40,7 @@ void Cfrac::inputPQ()
 	char const * str = "You must enter an integer";
 	char const * str2 = "You must enter an integer that doesn`t equal to zero";
 	std::cout << "\nEnter P:";
-	int ptemp =0;
+	int ptemp = 0;
 	ptemp = inputData(ptemp, str);
 	std::cout << "\nEnter Q:";
     int qtemp = 0;

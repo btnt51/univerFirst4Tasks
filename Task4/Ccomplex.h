@@ -14,14 +14,14 @@ private:
 
 public:
 	Ccomplex();
-	Ccomplex(double _RealVal, double _ImagVal);
+	Ccomplex(double RealVal, double ImagVal);
 	~Ccomplex();
-	Ccomplex& operator*=(Ccomplex other);
-	Ccomplex operator / (const Ccomplex& other);
-	Ccomplex& operator =(Ccomplex other);
-
-	double getReal(){return m_realVal;}
-	double getImag(){return m_imagVal;}
+	Ccomplex& operator*=(const Ccomplex& another);
+	Ccomplex operator / (const Ccomplex& another) const;
+	Ccomplex& operator =(const Ccomplex& another);
+    void Enter();
+	double getReal() const{ return m_realVal; }
+	double getImag() const{ return m_imagVal; }
 
 	void menu();
 

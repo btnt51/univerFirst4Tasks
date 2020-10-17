@@ -19,7 +19,7 @@ Ctimer::Ctimer(int min, int sec)
 		m_sec = sec;
 	}
 
-	std::cout << "\nminutes: " << m_min << " seconds: " << m_sec << std::endl;
+	std::cout << "\nminutes: " << m_min << "seconds: " << m_sec << std::endl;
 }
 
 Ctimer::Ctimer(int sec)

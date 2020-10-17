@@ -6,7 +6,7 @@
 #define UNIVERFIRST4TASKS_CSTUDENT_H
 #include "Cperson.h"
 
-class Cstudent : protected Cperson
+class Cstudent : public Cperson
 {
 private:
 	std::string m_Faculty = "";
