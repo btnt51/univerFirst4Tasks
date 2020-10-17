@@ -48,8 +48,10 @@ Ccomplex &Ccomplex::operator=(const Ccomplex& another)
 
 void Ccomplex::menu()
 {
+    std::cout << "Enter a" << std::endl;
     Ccomplex a(0.0, 0.0);
     a.Enter();
+    std::cout << "Enter b" << std::endl;
     Ccomplex b(0.0, 0.0);
     b.Enter();
     double br = b.getReal();
@@ -63,12 +65,14 @@ void Ccomplex::menu()
     }
     Ccomplex c(0.0, 0.0);
 
-    std::cout << a.getReal() << " + " << a.getImag() << "i" << std::endl;
-    std::cout << b.getReal() << " + " << b.getImag() << "i" << std::endl;
-    std::cout << c.getReal() << " + " << c.getImag() << "i" << std::endl;
+    std::cout << "a = "<< a.getReal() << " + " << a.getImag() << "i" << std::endl;
+    std::cout << "b = "<< b.getReal() << " + " << b.getImag() << "i" << std::endl;
+    std::cout << "c = "<< c.getReal() << " + " << c.getImag() << "i" << std::endl;
     c = a / b;
+    std::cout <<"c = a / b = ";
     std::cout << c.getReal() << "+" << c.getImag()<< "i" << std::endl;
     b *= a;
+    std::cout <<" b *= a = ";
     std::cout << b.getReal() << "+" << b.getImag() << "i" << std::endl;
 }
 void Ccomplex::Enter()
@@ -77,6 +81,6 @@ void Ccomplex::Enter()
     std::cout << "\nInput real->";
     m_realVal = inputData(m_realVal, str);
     std::cout << "\nInput imag->";
-    m_realVal = inputData(m_realVal, str);
+    m_imagVal = inputData(m_imagVal, str);
 }
 

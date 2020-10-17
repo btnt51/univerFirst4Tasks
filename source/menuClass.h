@@ -9,7 +9,7 @@
 class menuClass
 {
 private:
-	int m_choiceMenu = 0, m_choiceClass = 0;
+	int m_choiceMenu = -1, m_choiceClass = 0;
 
 public:
 	menuClass();
@@ -20,6 +20,7 @@ public:
 	void startWorkWithClass(T, T2);
 	template<class T, class T2, class T3>
 	void startWorkWithClass(T, T2, T3);
+    void TextMenu();
 
 };
 

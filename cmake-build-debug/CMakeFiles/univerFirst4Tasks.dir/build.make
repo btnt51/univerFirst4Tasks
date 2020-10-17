@@ -38,19 +38,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\btnt51\Documents\univerFirst4Tasks
+CMAKE_SOURCE_DIR = C:\Users\ochen\Desktop\univerFirst4Tasks
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\univerFirst4Tasks.dir\depend.make
@@ -63,306 +63,306 @@ include CMakeFiles\univerFirst4Tasks.dir\flags.make
 
 CMakeFiles\univerFirst4Tasks.dir\source\main.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\source\main.cpp.obj: ..\source\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\source\main.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\source\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\source\main.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\source\main.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\source\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\source\main.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\source\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\source\main.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/source/main.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\source\main.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\source\main.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\source\main.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\source\main.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.obj: ..\Task1\Cpoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task1/Cpoint.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\Cpoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task1/Cpoint.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\Cpoint.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task1/Cpoint.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\Cpoint.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\Cpoint.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task1/Cpoint.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\Cpoint.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task1\Cpoint.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\Cpoint.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.obj: ..\Task1\Cfrac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task1/Cfrac.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\Cfrac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task1/Cfrac.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\Cfrac.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task1/Cfrac.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\Cfrac.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\Cfrac.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task1/Cfrac.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\Cfrac.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task1\Cfrac.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\Cfrac.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.obj: ..\Task1\menu1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task1/menu1.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\menu1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task1/menu1.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\menu1.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task1/menu1.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\menu1.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\menu1.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task1/menu1.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task1\menu1.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task1\menu1.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task1\menu1.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.obj: ..\source\menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\source\menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\source\menu.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\source\menu.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\source\menu.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/source/menu.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\source\menu.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\source\menu.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\source\menu.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.obj: ..\source\input_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\source\input_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\source\input_data.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\source\input_data.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\source\input_data.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/source/input_data.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\source\input_data.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\source\input_data.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\source\input_data.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.obj: ..\Task2\Cperson.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\Cperson.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\Cperson.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\Cperson.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\Cperson.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task2/Cperson.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\Cperson.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task2\Cperson.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\Cperson.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.obj: ..\Task2\Cstudent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\Cstudent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\Cstudent.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\Cstudent.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\Cstudent.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task2/Cstudent.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\Cstudent.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task2\Cstudent.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\Cstudent.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.obj: ..\Task2\menu2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\menu2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\menu2.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\menu2.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\menu2.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task2/menu2.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task2\menu2.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task2\menu2.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task2\menu2.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.obj: ..\Task3\Ctimer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task3/Ctimer.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Ctimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task3/Ctimer.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Ctimer.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task3/Ctimer.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Ctimer.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Ctimer.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task3/Ctimer.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Ctimer.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task3\Ctimer.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Ctimer.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.obj: ..\Task3\Cstring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task3/Cstring.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Cstring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task3/Cstring.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Cstring.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task3/Cstring.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Cstring.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Cstring.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task3/Cstring.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Cstring.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task3\Cstring.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Cstring.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.obj: ..\Task3\Cvector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Cvector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Cvector.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Cvector.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Cvector.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task3/Cvector.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\Cvector.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task3\Cvector.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\Cvector.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.obj: ..\Task3\menu3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\menu3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\menu3.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\menu3.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\menu3.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task3/menu3.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task3\menu3.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task3\menu3.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task3\menu3.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.obj: ..\Task4\Ccomplex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task4\Ccomplex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task4\Ccomplex.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task4\Ccomplex.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task4\Ccomplex.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task4/Ccomplex.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task4\Ccomplex.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task4\Ccomplex.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task4\Ccomplex.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.obj: ..\Task4\menu4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\Task4\menu4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\Task4\menu4.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\Task4\menu4.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\Task4\menu4.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/Task4/menu4.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\Task4\menu4.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\Task4\menu4.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.obj: CMakeFiles\univerFirst4Tasks.dir\flags.make
 CMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.obj: ..\source\menuClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/menuClass.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\btnt51\Documents\univerFirst4Tasks\source\menuClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/univerFirst4Tasks.dir/source/menuClass.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.obj /FdCMakeFiles\univerFirst4Tasks.dir\ /FS -c C:\Users\ochen\Desktop\univerFirst4Tasks\source\menuClass.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/univerFirst4Tasks.dir/source/menuClass.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\btnt51\Documents\univerFirst4Tasks\source\menuClass.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ochen\Desktop\univerFirst4Tasks\source\menuClass.cpp
 <<
 
 CMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/univerFirst4Tasks.dir/source/menuClass.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.s /c C:\Users\btnt51\Documents\univerFirst4Tasks\source\menuClass.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.s /c C:\Users\ochen\Desktop\univerFirst4Tasks\source\menuClass.cpp
 <<
 
 # Object files for target univerFirst4Tasks
@@ -405,9 +405,9 @@ univerFirst4Tasks.exe: CMakeFiles\univerFirst4Tasks.dir\Task4\menu4.cpp.obj
 univerFirst4Tasks.exe: CMakeFiles\univerFirst4Tasks.dir\source\menuClass.cpp.obj
 univerFirst4Tasks.exe: CMakeFiles\univerFirst4Tasks.dir\build.make
 univerFirst4Tasks.exe: CMakeFiles\univerFirst4Tasks.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable univerFirst4Tasks.exe"
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\univerFirst4Tasks.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\univerFirst4Tasks.dir\objects1.rsp @<<
- /out:univerFirst4Tasks.exe /implib:univerFirst4Tasks.lib /pdb:C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\univerFirst4Tasks.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable univerFirst4Tasks.exe"
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\univerFirst4Tasks.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\univerFirst4Tasks.dir\objects1.rsp @<<
+ /out:univerFirst4Tasks.exe /implib:univerFirst4Tasks.lib /pdb:C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\univerFirst4Tasks.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -420,6 +420,6 @@ CMakeFiles\univerFirst4Tasks.dir\clean:
 .PHONY : CMakeFiles\univerFirst4Tasks.dir\clean
 
 CMakeFiles\univerFirst4Tasks.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\btnt51\Documents\univerFirst4Tasks C:\Users\btnt51\Documents\univerFirst4Tasks C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\CMakeFiles\univerFirst4Tasks.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\ochen\Desktop\univerFirst4Tasks C:\Users\ochen\Desktop\univerFirst4Tasks C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug C:\Users\ochen\Desktop\univerFirst4Tasks\cmake-build-debug\CMakeFiles\univerFirst4Tasks.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\univerFirst4Tasks.dir\depend
 
