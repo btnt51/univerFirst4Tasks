@@ -22,3 +22,9 @@ void Cvector::print() const
 	std::cout << "coordinate by y = " << std::setw(4) << this->m_y << std::endl;
 	std::cout << "coordinate by z = " << std::setw(4) << this->m_z << std::endl;
 }
+
+void Cvector::menu()
+{
+	Cvector vec(1,5,10);
+	vec.print();
+}

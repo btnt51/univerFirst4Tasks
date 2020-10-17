@@ -89,3 +89,27 @@ Cfrac Cfrac::operator/(const Cfrac& b) const
 	return Cfrac((this->m_p * b.m_q), (this->m_q * b.m_p));
 }
 
+void Cfrac::menu()
+{
+	Cfrac A(0, 0);
+	Cfrac B(0, 0);
+	A.inputPQ();
+	B.inputPQ();
+	Cfrac C(0, 0);
+	try
+	{
+		std::cout << "A= " ;
+		std::cout << A.getP() << "/";
+		std::cout << A.getQ() << std::endl;
+		std::cout << "B= " ;
+		std::cout << B.getP() << "/";
+		std::cout << B.getQ() << std::endl;
+		C = A/B;
+		C.toSimple();
+		std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+	}
+	catch (int a)
+	{
+		std::cout << "We can`t div on zero!" << std::endl;
+	}
+}

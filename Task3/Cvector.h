@@ -17,7 +17,7 @@ public:
 	Cvector(int x, int y, int z);
 	~Cvector();
 	void print() const;
-
+	void menu();
 };
 
 

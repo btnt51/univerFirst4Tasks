@@ -23,7 +23,7 @@ public:
 	double getReal(){return m_realVal;}
 	double getImag(){return m_imagVal;}
 
-
+	void menu();
 
 };
 

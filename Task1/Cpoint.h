@@ -19,6 +19,8 @@ public:
     Cpoint turnRadVecOnHRAD(double radian) const;
     Cpoint turnRadVecOnHGRAD(double degrees) const;
 	void inputXY();
+	void menu();
+
 };
 
 

@@ -3,7 +3,7 @@
 //
 #include "../headers/includes.h"
 
-void menu()
+/*void menu()
 {
 	while(true)
 	{
@@ -39,4 +39,4 @@ void menu()
 		}
 
 	}
-}
+}*/

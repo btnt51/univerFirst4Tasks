@@ -22,6 +22,7 @@ public:
 	Cfrac operator-(const Cfrac& b) const;
 	Cfrac operator*(const Cfrac& b) const;
 	Cfrac operator/(const Cfrac& b) const;
+	void menu();
 };
 
 

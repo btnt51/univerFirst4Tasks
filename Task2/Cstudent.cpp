@@ -54,3 +54,11 @@ void Cstudent::printInfo()
 		 << "\nStudent Faculty->"<<this->m_Faculty
 		 << "\nStudent GroupNumber->"<< this->m_GroupNumber;
 }
+
+void Cstudent::menu()
+{
+	Cstudent Student;
+
+	Student.input_stud();
+	Student.printInfo();
+}
