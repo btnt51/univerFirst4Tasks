@@ -89,10 +89,10 @@ template<class T, class T2>
 void menuClass::startWorkWithClass(T obj, T2 obj2)
 {
 	bool t = true;
+    std::cout << "Enter 1 or 2 to choose the class or 0 to exit from this task" << std::endl;
 	while(t)
 	{
 		/*funcForCOutText*/
-		std::cout << "Enter 1 or 2 to choose the class or 0 to exit from this task" << std::endl;
 		char const *str = "You put a wrong number, reenter a number from 1 to 2 or 0 to exit.";
 		m_choiceClass = inputData(m_choiceClass, str);
 		if (m_choiceClass < 0 || m_choiceClass > 2)
@@ -123,10 +123,10 @@ template<class T, class T2, class T3>
 void menuClass::startWorkWithClass(T obj, T2 obj2, T3 obj3)
 {
 	bool t = true;
+    std::cout << "Enter from 1 to 3 to choose the class or 0 to exit from this task" << std::endl;
 	while(t)
 	{
 		/*funcForCOutText*/
-		std::cout << "Enter from 1 to 3 to choose the class or 0 to exit from this task" << std::endl;
 		char const *str = "You put a wrong number, reenter a number from 1 to 3 or 0 to exit.";
 		m_choiceClass = inputData(m_choiceClass, str);
 		if (m_choiceClass < 0 || m_choiceClass > 3)

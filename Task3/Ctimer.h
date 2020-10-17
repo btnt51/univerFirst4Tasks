@@ -16,6 +16,8 @@ public:
 	Ctimer(int sec);
 	~Ctimer();
 	void menu();
+    int getSec(){return m_sec;}
+    int getMin(){return m_min;}
 };
 
 

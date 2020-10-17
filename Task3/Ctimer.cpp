@@ -18,8 +18,6 @@ Ctimer::Ctimer(int min, int sec)
 	{
 		m_sec = sec;
 	}
-
-	std::cout << "\nminutes: " << m_min << "seconds: " << m_sec << std::endl;
 }
 
 Ctimer::Ctimer(int sec)
@@ -35,7 +33,6 @@ Ctimer::Ctimer(int sec)
 	{
 		m_sec = sec;
 	}
-	std::cout << "\nminutes: " << m_min << " seconds: " << m_sec << std::endl;
 }
 
 Ctimer::~Ctimer()
@@ -46,5 +43,7 @@ Ctimer::~Ctimer()
 void Ctimer::menu()
 {
 	Ctimer testMin(5,60);
+    std::cout << "\nminutes: " << testMin.getMin() << " seconds: " << testMin.getSec() << std::endl;
 	Ctimer testSec(60);
+    std::cout << "\nminutes: " << testSec.getMin() << " seconds: " << testSec.getSec() << std::endl;
 }

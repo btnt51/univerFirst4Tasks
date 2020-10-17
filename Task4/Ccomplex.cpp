@@ -45,23 +45,32 @@ Ccomplex &Ccomplex::operator=(const Ccomplex& another)
 	return *this;
 }
 
-<<<<<<< Updated upstream
+
 void Ccomplex::menu()
 {
-	Ccomplex a(8, 1);
-	Ccomplex b(5, 1);
-	Ccomplex c;
+    Ccomplex a(0.0, 0.0);
+    a.Enter();
+    Ccomplex b(0.0, 0.0);
+    b.Enter();
+    double br = b.getReal();
+    double bi = b.getImag();
+    while ((br == 0.0) && (bi == 0.0))
+    {
+        std::cout << "You must enter an integer that doesn`t equal to zero" << std::endl;
+        b.Enter();
+        br = b.getReal();
+        bi = b.getImag();
+    }
+    Ccomplex c(0.0, 0.0);
 
-	c = a / b;
-	std::cout << "c = a / b \t(a(8,5) b(5,1))" << std::endl;
-	std::cout << "c-real " << c.getReal() << " | " << "c-imag " << c.getImag()<< std::endl;
-
-
-	b *= a;
-	std::cout << "b *= a \t(a(8,5) b(5,1))" << std::endl;
-	std::cout << "b-real " << b.getReal() << " | " << "b-imag " << b.getImag() << std::endl;
+    std::cout << a.getReal() << " + " << a.getImag() << "i" << std::endl;
+    std::cout << b.getReal() << " + " << b.getImag() << "i" << std::endl;
+    std::cout << c.getReal() << " + " << c.getImag() << "i" << std::endl;
+    c = a / b;
+    std::cout << c.getReal() << "+" << c.getImag()<< "i" << std::endl;
+    b *= a;
+    std::cout << b.getReal() << "+" << b.getImag() << "i" << std::endl;
 }
-=======
 void Ccomplex::Enter()
 {
     char const* str = "You must enter a real number";
@@ -70,4 +79,4 @@ void Ccomplex::Enter()
     std::cout << "\nInput imag->";
     m_realVal = inputData(m_realVal, str);
 }
->>>>>>> Stashed changes
+
