@@ -42,3 +42,9 @@ Ctimer::~Ctimer()
 {
 
 }
+
+void Ctimer::menu()
+{
+	Ctimer testMin(5,60);
+	Ctimer testSec(60);
+}

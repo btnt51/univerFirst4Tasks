@@ -1,7 +1,9 @@
 #include "../headers/includes.h"
+#include "menuClass.h"
 
 int main()
 {
-	menu();
+	menuClass mainMenu;
+	mainMenu.menu();
 	return 0;
 }

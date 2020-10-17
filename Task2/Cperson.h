@@ -22,6 +22,10 @@ public:
 		m_Year = Year;
 		std::cout << m_Year;//ограничить
 	}
+	void menu()
+	{
+		Cperson person("Alina", 2001);
+	}
 };
 
 

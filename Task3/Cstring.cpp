@@ -29,3 +29,9 @@ void Cstring::output()
 {
 	std::cout << m_string << std::endl;
 }
+
+void Cstring::menu()
+{
+	Cstring str("Hello world");
+	str.output();
+}

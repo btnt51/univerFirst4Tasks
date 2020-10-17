@@ -4,162 +4,166 @@
 	<Project>
 		<Option title="univerFirst4Tasks"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/btnt51/Documents/univerFirst4Tasks/cmake-build-debug"/>
+				<Option working_dir="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="univerFirst4Tasks">
-				<Option output="C:/Users/btnt51/Documents/univerFirst4Tasks/cmake-build-debug/univerFirst4Tasks.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/btnt51/Documents/univerFirst4Tasks/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 univerFirst4Tasks"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="univerFirst4Tasks/fast">
-				<Option output="C:/Users/btnt51/Documents/univerFirst4Tasks/cmake-build-debug/univerFirst4Tasks.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/btnt51/Documents/univerFirst4Tasks/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 univerFirst4Tasks/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/btnt51/Documents/univerFirst4Tasks/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/btnt51/Documents/univerFirst4Tasks/cmake-build-debug"/>
+				<Option working_dir="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\btnt51\Documents\univerFirst4Tasks\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="univerFirst4Tasks">
+				<Option output="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/univerFirst4Tasks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 univerFirst4Tasks"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="univerFirst4Tasks/fast">
+				<Option output="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/univerFirst4Tasks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 univerFirst4Tasks/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task1/Cfrac.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task1/Cfrac.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task1/Cfrac.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task1/Cfrac.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task1/Cpoint.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task1/Cpoint.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task1/Cpoint.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task1/Cpoint.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task1/menu1.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task1/menu1.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task2/Cperson.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task2/Cperson.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task2/Cperson.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task2/Cperson.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task2/Cstudent.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task2/Cstudent.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task2/Cstudent.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task2/Cstudent.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task2/menu2.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task2/menu2.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task3/Cstring.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task3/Cstring.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task3/Cstring.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task3/Cstring.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task3/Ctimer.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task3/Ctimer.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task3/Ctimer.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task3/Ctimer.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task3/Cvector.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task3/Cvector.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task3/Cvector.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task3/Cvector.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task3/menu3.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task3/menu3.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task4/Ccomplex.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task4/Ccomplex.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task4/Ccomplex.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task4/Ccomplex.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/Task4/menu4.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/Task4/menu4.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/headers/includes.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/headers/includes.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/headers/prototypes.h">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/headers/prototypes.h">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/source/input_data.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/source/input_data.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/source/main.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/source/main.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/source/menu.cpp">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/source/menu.cpp">
 			<Option target="univerFirst4Tasks"/>
 		</Unit>
-		<Unit filename="C:/Users/btnt51/Documents/univerFirst4Tasks/CMakeLists.txt">
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/source/menuClass.cpp">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/source/menuClass.h">
+			<Option target="univerFirst4Tasks"/>
+		</Unit>
+		<Unit filename="/home/btnt51/gitKrakenGitHub/univerFirst4Tasks/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

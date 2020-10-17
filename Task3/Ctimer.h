@@ -15,7 +15,7 @@ public:
 	Ctimer(int min, int sec);
 	Ctimer(int sec);
 	~Ctimer();
-
+	void menu();
 };
 
 

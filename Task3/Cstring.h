@@ -16,6 +16,7 @@ public:
 	Cstring(char const *str);
 	~Cstring();
 	void output();
+	void menu();
 };
 
 
