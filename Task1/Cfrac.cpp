@@ -22,6 +22,15 @@ Cfrac::Cfrac(int p, int q)
         m_p = p;
         m_q = q;
     }
+    /*if(p == 0)
+    {
+        throw -2.0;
+    }
+    else
+    {
+        m_p = p;
+        m_q = q;
+    }*/
 }
 
 double Cfrac::toNumber() const
@@ -61,6 +70,16 @@ void Cfrac::inputPQ()
         m_p = ptemp;
         m_q = qtemp;
     }
+    if(ptemp == 0)
+    {
+        m_p = 0;
+        m_q = 0;
+    }
+    else
+    {
+        m_p = ptemp;
+        m_q = qtemp;
+    }
 }
 
 Cfrac Cfrac::operator+(const Cfrac& b) const
@@ -70,6 +89,13 @@ Cfrac Cfrac::operator+(const Cfrac& b) const
 	return Cfrac(((this->m_p * (LCM / this->m_q)) + (b.m_p * (LCM / b.m_q))), LCM);
 }
 
+Cfrac Cfrac::operator+( int value) const
+{
+    return Cfrac(this->m_p + (value * this->m_q), m_q);
+}
+
+
+
 Cfrac Cfrac::operator-(const Cfrac& b) const
 {
 	int LCM = this->m_q * b.m_q / std::gcd(this->m_q, b.m_q);
@@ -77,9 +103,20 @@ Cfrac Cfrac::operator-(const Cfrac& b) const
 	return Cfrac(((this->m_p * (LCM / this->m_q)) - (b.m_p * (LCM / b.m_q))), LCM);
 }
 
+Cfrac Cfrac::operator-( int value) const
+{
+    return Cfrac(this->m_p - (value * this->m_q), m_q);
+}
+
+
 Cfrac Cfrac::operator*(const Cfrac& b) const
 {
 	return Cfrac((this->m_p* b.m_p), (this->m_q * b.m_q));
+}
+
+Cfrac Cfrac::operator*(int value) const
+{
+    return Cfrac((this->m_p * value), (this->m_q));
 }
 
 Cfrac Cfrac::operator/(const Cfrac& b) const
@@ -89,27 +126,180 @@ Cfrac Cfrac::operator/(const Cfrac& b) const
 	return Cfrac((this->m_p * b.m_q), (this->m_q * b.m_p));
 }
 
+Cfrac Cfrac::operator/(int value) const
+{
+    if (value == 0 || this->m_p == 0)
+        throw 0;
+    return Cfrac((this->m_p), (this->m_q * value));
+}
+
 void Cfrac::menu()
 {
-	Cfrac A(0, 0);
-	Cfrac B(0, 0);
-	A.inputPQ();
-	B.inputPQ();
-	Cfrac C(0, 0);
-	try
-	{
-		std::cout << "A= " ;
-		std::cout << A.getP() << "/";
-		std::cout << A.getQ() << std::endl;
-		std::cout << "B= " ;
-		std::cout << B.getP() << "/";
-		std::cout << B.getQ() << std::endl;
-		C = A/B;
-		C.toSimple();
-		std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
-	}
-	catch (int a)
-	{
-		std::cout << "We can`t div on zero!" << std::endl;
-	}
+    while(true)
+    {
+        /*textCout*/
+        int action = 0;
+        action = inputData(action,"You must enter an integer");
+        while(true)
+        {
+            if (action < 1 || action > 2)
+            {
+                action = inputData(action, "You must enter an integer from 1 to 2");
+            }
+            else
+            {
+                break;
+            }
+        }
+        switch(action)
+        {
+            case 1:
+                menuCfracCfrac();
+                break;
+            case 2:
+                menuCfracValue();
+                break;
+            default:
+                break;
+        }
+        /*textCout*/
+        action = inputData(action,"You must enter an integer");
+        while(true)
+        {
+            if (action < 0 || action > 1)
+            {
+                action = inputData(action, "You must enter an integer from 0 to 1");
+            }
+            else
+            {
+                break;
+            }
+        }
+        if(action == 0)
+            break;
+    }
+}
+
+void Cfrac::menuCfracCfrac()
+{
+    Cfrac A(0, 0);
+    Cfrac B(0, 0);
+    A.inputPQ();
+    B.inputPQ();
+    Cfrac C(0, 0);
+    try
+    {
+        std::cout << "A= " ;
+        std::cout << A.getP() << "/";
+        std::cout << A.getQ() << std::endl;
+        std::cout << "B= " ;
+        std::cout << B.getP() << "/";
+        std::cout << B.getQ() << std::endl;
+        int action = 0;
+        /*textCout*/
+        action = inputData(action,"You must enter an integer");
+        while(true)
+        {
+            if (action < 1 || action > 4)
+            {
+                action = inputData(action, "You must enter an integer from 1 to 4");
+            }
+            else
+            {
+             break;
+            }
+        }
+        switch(action)
+        {
+            case 1:
+                C = A+B;
+                C.toSimple();
+                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                break;
+            case 2:
+                C = A-B;
+                C.toSimple();
+                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                break;
+            case 3:
+                C = A *B;
+                C.toSimple();
+                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                break;
+            case 4:
+                C = A/B;
+                C.toSimple();
+                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                break;
+            default:
+                break;
+        }
+
+    }
+    catch (int a)
+    {
+        std::cout << "We can`t div on "<< a << "!" << std::endl;
+    }
+}
+
+
+void Cfrac::menuCfracValue()
+{
+    Cfrac A(0, 0);
+    int B =0;
+    A.inputPQ();
+    /*textCout*/
+    std::cout << "Enter an intger" << std::endl;
+    B = inputData(B, "You must enter an integer");
+    Cfrac C(0, 0);
+    try
+    {
+        std::cout << "A= " ;
+        std::cout << A.getP() << "/";
+        std::cout << A.getQ() << std::endl;
+        std::cout << "B= " << B;
+        int action = 0;
+        /*textCout*/
+        action = inputData(action,"You must enter an integer");
+        while(true)
+        {
+            if (action < 1 || action > 4)
+            {
+                action = inputData(action, "You must enter an integer from 1 to 4");
+            }
+            else
+            {
+                break;
+            }
+        }
+        switch(action)
+        {
+            case 1:
+                C = A+B;
+                C.toSimple();
+                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                break;
+            case 2:
+                C = A-B;
+                C.toSimple();
+                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                break;
+            case 3:
+                C = A *B;
+                C.toSimple();
+                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                break;
+            case 4:
+                C = A/B;
+                C.toSimple();
+                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                break;
+            default:
+                break;
+        }
+    }
+    catch (int a)
+    {
+        std::cout << "We can`t div on "<< a << "!" << std::endl;
+    }
 }
