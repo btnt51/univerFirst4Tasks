@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\ochen\Desktop\univerFirst4Tasks
 -- The C compiler identification is MSVC 19.27.29112.0
 -- The CXX compiler identification is MSVC 19.27.29112.0
@@ -13,6 +14,9 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
+=======
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\btnt51\Documents\univerFirst4Tasks
+>>>>>>> Stashed changes
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/ochen/Desktop/univerFirst4Tasks/cmake-build-debug
