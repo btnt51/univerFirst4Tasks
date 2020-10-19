@@ -137,7 +137,7 @@ void Cfrac::menu()
 {
     while(true)
     {
-        /*textCout*/
+        std::cout << "Press 1 - to select CfracCfrac class\nPress 2 - to select CfracValue class" << std::endl;
         int action = 0;
         action = inputData(action,"You must enter an integer");
         while(true)
@@ -162,7 +162,7 @@ void Cfrac::menu()
             default:
                 break;
         }
-        /*textCout*/
+        std::cout << "Press 1 if you want to continue working with the selected class\nPress 0 to exit to task menu" << std::endl;
         action = inputData(action,"You must enter an integer");
         while(true)
         {
@@ -196,7 +196,7 @@ void Cfrac::menuCfracCfrac()
         std::cout << B.getP() << "/";
         std::cout << B.getQ() << std::endl;
         int action = 0;
-        /*textCout*/
+        std::cout << "Press:\n1 to perform the addition operation(+)\n2 to perform the subtraction operation(-)\n3 to perform multiplication(*)\n4 to perform a division operation(/)" << std::endl;
         action = inputData(action,"You must enter an integer");
         while(true)
         {
@@ -248,18 +248,17 @@ void Cfrac::menuCfracValue()
     Cfrac A(0, 0);
     int B =0;
     A.inputPQ();
-    /*textCout*/
-    std::cout << "Enter an intger" << std::endl;
-    B = inputData(B, "You must enter an integer");
+    std::cout << "Enter an integer" << std::endl;
+    B = inputData(B, "You must enter an integer") ;
     Cfrac C(0, 0);
     try
     {
         std::cout << "A= " ;
         std::cout << A.getP() << "/";
         std::cout << A.getQ() << std::endl;
-        std::cout << "B= " << B;
+        std::cout << "B= " << B << std::endl;
         int action = 0;
-        /*textCout*/
+        std::cout << "Press:\n1 to perform the addition operation(+)\n2 to perform the subtraction operation(-)\n3 to perform multiplication(*)\n4 to perform a division operation(/)" << std::endl;
         action = inputData(action,"You must enter an integer");
         while(true)
         {
