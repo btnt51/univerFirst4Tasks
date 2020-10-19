@@ -29,6 +29,7 @@ public:
 	void menu();
     void menuCfracCfrac();
     void menuCfracValue();
+    void print();
 };
 
 

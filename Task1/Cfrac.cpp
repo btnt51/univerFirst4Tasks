@@ -22,15 +22,6 @@ Cfrac::Cfrac(int p, int q)
         m_p = p;
         m_q = q;
     }
-    /*if(p == 0)
-    {
-        throw -2.0;
-    }
-    else
-    {
-        m_p = p;
-        m_q = q;
-    }*/
 }
 
 double Cfrac::toNumber() const
@@ -133,6 +124,24 @@ Cfrac Cfrac::operator/(int value) const
     return Cfrac((this->m_p), (this->m_q * value));
 }
 
+void Cfrac::print()
+{
+    if(this->m_p == 0)
+    {
+        std::cout << "\nP/Q=" << 0 << std::endl;
+    }
+    else if(m_p == m_q)
+    {
+        std::cout << "\nP/Q=" << this->toNumber() << std::endl;
+    }
+    else
+    {
+        this->toSimple();
+        std::cout << "\nP/Q=" << this->getP() << '/' << this->getQ() << "=" << this->toNumber() << std::endl;
+    }
+
+}
+
 void Cfrac::menu()
 {
     while(true)
@@ -213,23 +222,19 @@ void Cfrac::menuCfracCfrac()
         {
             case 1:
                 C = A+B;
-                C.toSimple();
-                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                C.print();
                 break;
             case 2:
                 C = A-B;
-                C.toSimple();
-                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                C.print();
                 break;
             case 3:
                 C = A *B;
-                C.toSimple();
-                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                C.print();
                 break;
             case 4:
                 C = A/B;
-                C.toSimple();
-                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                C.print();
                 break;
             default:
                 break;
@@ -275,23 +280,19 @@ void Cfrac::menuCfracValue()
         {
             case 1:
                 C = A+B;
-                C.toSimple();
-                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                C.print();
                 break;
             case 2:
                 C = A-B;
-                C.toSimple();
-                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                C.print();
                 break;
             case 3:
                 C = A *B;
-                C.toSimple();
-                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                C.print();
                 break;
             case 4:
                 C = A/B;
-                C.toSimple();
-                std::cout << "\nP/Q=" << C.getP() << '/' << C.getQ() << "=" << C.toNumber() << std::endl;
+                C.print();
                 break;
             default:
                 break;
